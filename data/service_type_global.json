@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "service_type": "electrician"
+  },
+  {
+    "id": 2,
+    "service_type": "plumber"
+  },
+  {
+    "id": 3,
+    "service_type": "mechanic"
+  },
+  {
+    "id": 4,
+    "service_type": "welder"
+  },
+  {
+    "id": 5,
+    "service_type": "painter"
+  },
+  {
+    "id": 6,
+    "service_type": "carpenter"
+  },
+  {
+    "id": 7,
+    "service_type": "barber"
+  },
+  {
+    "id": 8,
+    "service_type": "tailor"
+  },
+  {
+    "id": 9,
+    "service_type": "housekeeper"
+  },
+  {
+    "id": 10,
+    "service_type": "cook"
+  },
+  {
+    "id": 11,
+    "service_type": "makeup artist"
+  },
+  {
+    "id": 12,
+    "service_type": "cobbler"
+  },
+  {
+    "id": 13,
+    "service_type": "mason"
+  },
+  {
+    "id": 14,
+    "service_type": "cobbler"
+  },
+  {
+    "id": 15,
+    "service_type": "pest control"
+  },
+  {
+    "id": 16,
+    "service_type": "appliance repair"
+  }
+]
