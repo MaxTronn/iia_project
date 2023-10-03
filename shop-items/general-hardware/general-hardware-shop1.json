@@ -1,1 +1,1870 @@
-[{"products":[{"categories":["building_materials","safety_equipment","electrical_supplies","tools"],"tools":[{"sub_categories":["power_tools","hand_tools","measuring_tools"],"power_tools":[{"id":{"$oid":"650eb11afc13ae6d55fd55ac"},"name":"Electric Drill","brand":"Bosch","quantity":43,"price":6965},{"id":{"$oid":"650eb11afc13ae6d55fd55ad"},"name":"Cordless Screwdriver","brand":"DeWalt","quantity":83,"price":8610},{"id":{"$oid":"650eb11afc13ae6d55fd55ae"},"name":"Power Saw","brand":"Makita","quantity":27,"price":3334},{"id":{"$oid":"650eb11afc13ae6d55fd55af"},"name":"Angle Grinder","brand":"Milwaukee","quantity":97,"price":850},{"id":{"$oid":"650eb11afc13ae6d55fd55b0"},"name":"Rotary Hammer","brand":"Ryobi","quantity":79,"price":4034},{"id":{"$oid":"650eb11afc13ae6d55fd55b1"},"name":"Jigsaw","brand":"Black & Decker","quantity":69,"price":4385},{"id":{"$oid":"650eb11afc13ae6d55fd55b2"},"name":"Bench Grinder","brand":"Craftsman","quantity":13,"price":4143},{"id":{"$oid":"650eb11afc13ae6d55fd55b3"},"name":"Circular Saw","brand":"Hitachi","quantity":21,"price":6813},{"id":{"$oid":"650eb11afc13ae6d55fd55b4"},"name":"Impact Driver","brand":"Hilti","quantity":79,"price":7291},{"id":{"$oid":"650eb11afc13ae6d55fd55b5"},"name":"Reciprocating Saw","brand":"Stanley","quantity":5,"price":8395},{"id":{"$oid":"650eb11afc13ae6d55fd55b6"},"name":"Electric Drill","brand":"Porter-Cable","quantity":29,"price":8866},{"id":{"$oid":"650eb11afc13ae6d55fd55b7"},"name":"Cordless Screwdriver","brand":"Festool","quantity":81,"price":5497},{"id":{"$oid":"650eb11afc13ae6d55fd55b8"},"name":"Power Saw","brand":"WORX","quantity":50,"price":6992},{"id":{"$oid":"650eb11afc13ae6d55fd55b9"},"name":"Angle Grinder","brand":"Kobalt","quantity":30,"price":6611},{"id":{"$oid":"650eb11afc13ae6d55fd55ba"},"name":"Rotary Hammer","brand":"Metabo","quantity":19,"price":739}],"hand_tools":[{"id":{"$oid":"650eb11afc13ae6d55fd55bb"},"name":"Screwdriver","brand":"Acme","quantity":86,"price":9947},{"id":{"$oid":"650eb11afc13ae6d55fd55bc"},"name":"Hammer","brand":"ToolPro","quantity":74,"price":3846},{"id":{"$oid":"650eb11afc13ae6d55fd55bd"},"name":"Wrench","brand":"Craftsman","quantity":59,"price":3288},{"id":{"$oid":"650eb11afc13ae6d55fd55be"},"name":"Pliers","brand":"Stanley","quantity":88,"price":492},{"id":{"$oid":"650eb11afc13ae6d55fd55bf"},"name":"Saw","brand":"DeWalt","quantity":32,"price":1538},{"id":{"$oid":"650eb11afc13ae6d55fd55c0"},"name":"Chisel","brand":"Makita","quantity":1,"price":9036},{"id":{"$oid":"650eb11afc13ae6d55fd55c1"},"name":"Tape Measure","brand":"Bosch","quantity":63,"price":9639},{"id":{"$oid":"650eb11afc13ae6d55fd55c2"},"name":"Utility Knife","brand":"Milwaukee","quantity":13,"price":7090},{"id":{"$oid":"650eb11afc13ae6d55fd55c3"},"name":"Level","brand":"Klein","quantity":95,"price":3655},{"id":{"$oid":"650eb11afc13ae6d55fd55c4"},"name":"Clamp","brand":"Ridgid","quantity":33,"price":5631}],"measuring_tools":[{"id":{"$oid":"650eb11afc13ae6d55fd55c5"},"brand":"Acme","name":"Measuring Tape","price":181,"quantity":65},{"id":{"$oid":"650eb11afc13ae6d55fd55c6"},"brand":"ToolPro","name":"Ruler","price":1781,"quantity":79},{"id":{"$oid":"650eb11afc13ae6d55fd55c7"},"brand":"Precision","name":"Digital Caliper","price":691,"quantity":92},{"id":{"$oid":"650eb11afc13ae6d55fd55c8"},"brand":"Mastercraft","name":"Angle Finder","price":2560,"quantity":100},{"id":{"$oid":"650eb11afc13ae6d55fd55c9"},"brand":"ProTool","name":"Level","price":7570,"quantity":9},{"id":{"$oid":"650eb11afc13ae6d55fd55ca"},"brand":"MeasureMax","name":"Protractor","price":3084,"quantity":80},{"id":{"$oid":"650eb11afc13ae6d55fd55cb"},"brand":"UltimateTools","name":"Micrometer","price":8521,"quantity":4},{"id":{"$oid":"650eb11afc13ae6d55fd55cc"},"brand":"Superior","name":"Dial Indicator","price":9769,"quantity":97},{"id":{"$oid":"650eb11afc13ae6d55fd55cd"},"brand":"PrimeMeasure","name":"Depth Gauge","price":5487,"quantity":76},{"id":{"$oid":"650eb11afc13ae6d55fd55ce"},"brand":"ToolTech","name":"Feeler Gauge","price":6003,"quantity":70}]}],"safety_equipment":[{"sub_categories":["helmets","gloves"],"helmets":[{"id":{"$oid":"650eb11afc13ae6d55fd55cf"},"name":"Steel Guardian","brand":"SafeGuard","price":4615,"quantity":40},{"id":{"$oid":"650eb11afc13ae6d55fd55d0"},"name":"Ironclad Protector","brand":"ProtectPro","price":7631,"quantity":22},{"id":{"$oid":"650eb11afc13ae6d55fd55d1"},"name":"Silver Sentinel","brand":"SecureHead","price":8925,"quantity":26},{"id":{"$oid":"650eb11afc13ae6d55fd55d2"},"name":"Golden Defender","brand":"ShieldSafe","price":7378,"quantity":28},{"id":{"$oid":"650eb11afc13ae6d55fd55d3"},"name":"Bronze Guardian","brand":"GuardianGear","price":9683,"quantity":87},{"id":{"$oid":"650eb11afc13ae6d55fd55d4"},"name":"Platinum Protector","brand":"SafetyShield","price":3838,"quantity":16},{"id":{"$oid":"650eb11afc13ae6d55fd55d5"},"name":"Emerald Sentinel","brand":"DefendPro","price":6056,"quantity":3},{"id":{"$oid":"650eb11afc13ae6d55fd55d6"},"name":"Sapphire Defender","brand":"HelmetGuard","price":6533,"quantity":25},{"id":{"$oid":"650eb11afc13ae6d55fd55d7"},"name":"Ruby Guardian","brand":"SecureCap","price":8216,"quantity":73},{"id":{"$oid":"650eb11afc13ae6d55fd55d8"},"name":"Diamond Protector","brand":"ProtectivePro","price":9753,"quantity":50}],"gloves":[{"id":{"$oid":"650eb11afc13ae6d55fd55d9"},"name":"Safety Gloves 1","brand":"Acme Gloves","price":2960,"quantity":8919},{"id":{"$oid":"650eb11afc13ae6d55fd55da"},"name":"Protective Gloves","brand":"SureGrip","price":9774,"quantity":8334},{"id":{"$oid":"650eb11afc13ae6d55fd55db"},"name":"Work Gloves","brand":"FlexFit","price":4224,"quantity":8202},{"id":{"$oid":"650eb11afc13ae6d55fd55dc"},"name":"Industrial Gloves","brand":"MaxProtect","price":7217,"quantity":7482},{"id":{"$oid":"650eb11afc13ae6d55fd55dd"},"name":"Heavy Duty Gloves","brand":"GlovoTech","price":1575,"quantity":1439},{"id":{"$oid":"650eb11afc13ae6d55fd55de"},"name":"Cut Resistant Gloves","brand":"ProGuard","price":7751,"quantity":9208},{"id":{"$oid":"650eb11afc13ae6d55fd55df"},"name":"Chemical Resistant Gloves","brand":"HandShield","price":7252,"quantity":6999},{"id":{"$oid":"650eb11afc13ae6d55fd55e0"},"name":"Heat Resistant Gloves","brand":"EliteGrip","price":9811,"quantity":1307},{"id":{"$oid":"650eb11afc13ae6d55fd55e1"},"name":"Disposable Gloves","brand":"PowerFlex","price":4432,"quantity":5786},{"id":{"$oid":"650eb11afc13ae6d55fd55e2"},"name":"Grip Gloves","brand":"SecureFit","price":5276,"quantity":8678}]}],"building_material":[{"sub_categories":["tiles","paint","lumber","cement","plumbing"],"tiles":[{"id":{"$oid":"650eb11afc13ae6d55fd55e3"},"name":"Ceramic Tile","brand":"Acme Tiles","price":825300,"quantity":28},{"id":{"$oid":"650eb11afc13ae6d55fd55e4"},"name":"Porcelain Tile","brand":"TileMaster","price":614148,"quantity":20},{"id":{"$oid":"650eb11afc13ae6d55fd55e5"},"name":"Marble Tile","brand":"Elegant Tiles","price":719052,"quantity":51},{"id":{"$oid":"650eb11afc13ae6d55fd55e6"},"name":"Travertine Tile","brand":"Royal Ceramics","price":389686,"quantity":33},{"id":{"$oid":"650eb11afc13ae6d55fd55e7"},"name":"Slate Tile","brand":"Luxury Tiles","price":965351,"quantity":50},{"id":{"$oid":"650eb11afc13ae6d55fd55e8"},"name":"Granite Tile","brand":"Artisan Tiles","price":972082,"quantity":18},{"id":{"$oid":"650eb11afc13ae6d55fd55e9"},"name":"Glass Tile","brand":"Elite Tile Co.","price":941754,"quantity":52},{"id":{"$oid":"650eb11afc13ae6d55fd55ea"},"name":"Terracotta Tile","brand":"Premier Tiles","price":363153,"quantity":63},{"id":{"$oid":"650eb11afc13ae6d55fd55eb"},"name":"Quartzite Tile","brand":"ProTile","price":895737,"quantity":11},{"id":{"$oid":"650eb11afc13ae6d55fd55ec"},"name":"Limestone Tile","brand":"MasterCraft Tiles","price":461287,"quantity":76},{"id":{"$oid":"650eb11afc13ae6d55fd55ed"},"name":"Mosaic Tile","brand":"Designers Choice Tiles","price":586311,"quantity":89},{"id":{"$oid":"650eb11afc13ae6d55fd55ee"},"name":"Pebble Tile","brand":"Infinite Tiles","price":103274,"quantity":16},{"id":{"$oid":"650eb11afc13ae6d55fd55ef"},"name":"Onyx Tile","brand":"Perfect Tile Solutions","price":750719,"quantity":75},{"id":{"$oid":"650eb11afc13ae6d55fd55f0"},"name":"Metal Tile","brand":"Mosaic Tile Co.","price":655978,"quantity":48},{"id":{"$oid":"650eb11afc13ae6d55fd55f1"},"name":"Wood Tile","brand":"Global Tile Supply","price":606545,"quantity":58}],"paint":[{"sub_categories":["interior","exterior"],"interior":[{"id":{"$oid":"650eb11afc13ae6d55fd55f2"},"name":"Crimson Red","brand":"Acme Paints","price":7096,"size":["250ML","5L","1L","10L"],"quantity":87},{"id":{"$oid":"650eb11afc13ae6d55fd55f3"},"name":"Emerald Green","brand":"Rainbow Coatings","price":9124,"size":["5L","1L","10L","250ML"],"quantity":4},{"id":{"$oid":"650eb11afc13ae6d55fd55f4"},"name":"Sapphire Blue","brand":"ColorMaster","price":5546,"size":["5L","1L","250ML","10L"],"quantity":82},{"id":{"$oid":"650eb11afc13ae6d55fd55f5"},"name":"Goldenrod Yellow","brand":"Artisan Paints","price":3691,"size":["250ML","5L","10L","1L"],"quantity":77},{"id":{"$oid":"650eb11afc13ae6d55fd55f6"},"name":"Amethyst Purple","brand":"ProFinish","price":8350,"size":["250ML","10L","5L","1L"],"quantity":98},{"id":{"$oid":"650eb11afc13ae6d55fd55f7"},"name":"Turquoise Teal","brand":"Vibrant Colors","price":2825,"size":["5L","1L","250ML","10L"],"quantity":93},{"id":{"$oid":"650eb11afc13ae6d55fd55f8"},"name":"Cobalt Blue","brand":"Elite Paints","price":9635,"size":["5L","10L","250ML","1L"],"quantity":2},{"id":{"$oid":"650eb11afc13ae6d55fd55f9"},"name":"Coral Pink","brand":"PrimeCoat","price":5939,"size":["250ML","1L","10L","5L"],"quantity":46},{"id":{"$oid":"650eb11afc13ae6d55fd55fa"},"name":"Mocha Brown","brand":"Palette Perfect","price":4317,"size":["1L","250ML","5L","10L"],"quantity":94},{"id":{"$oid":"650eb11afc13ae6d55fd55fb"},"name":"Lavender Lilac","brand":"Masterstroke","price":2369,"size":["5L","10L","250ML","1L"],"quantity":92}],"exterior":[{"id":{"$oid":"650eb11afc13ae6d55fd55fc"},"name":"Coastal Breeze","brand":"Sherwin-Williams","price":4924,"quantity":18,"size":"5L"},{"id":{"$oid":"650eb11afc13ae6d55fd55fd"},"name":"Misty Morning","brand":"Behr","price":2566,"quantity":97,"size":"1L"},{"id":{"$oid":"650eb11afc13ae6d55fd55fe"},"name":"Sandy Shores","brand":"Benjamin Moore","price":5083,"quantity":10,"size":"250ML"},{"id":{"$oid":"650eb11afc13ae6d55fd55ff"},"name":"Golden Sunset","brand":"Valspar","price":7223,"quantity":37,"size":"5L"},{"id":{"$oid":"650eb11afc13ae6d55fd5600"},"name":"Autumn Glow","brand":"Dulux","price":9488,"quantity":44,"size":"10L"},{"id":{"$oid":"650eb11afc13ae6d55fd5601"},"name":"Whispering Willow","brand":"PPG","price":8430,"quantity":50,"size":"10L"},{"id":{"$oid":"650eb11afc13ae6d55fd5602"},"name":"Harbor Mist","brand":"Glidden","price":9371,"quantity":72,"size":"250ML"},{"id":{"$oid":"650eb11afc13ae6d55fd5603"},"name":"Morning Dew","brand":"Farrow & Ball","price":9774,"quantity":53,"size":"1L"},{"id":{"$oid":"650eb11afc13ae6d55fd5604"},"name":"Silent Sky","brand":"Jotun","price":4083,"quantity":3,"size":"5L"},{"id":{"$oid":"650eb11afc13ae6d55fd5605"},"name":"Dusk Reflection","brand":"Nippon","price":6467,"quantity":16,"size":"5L"}]}],"lumber":[{"sub_categories":["softwood","hardwood","composite_wood"],"hardwood":[{"id":{"$oid":"650eb11afc13ae6d55fd5606"},"name":"Oak","brand":"Acme Hardwoods","price":1283,"size":"250x250 inch","quantity":47},{"id":{"$oid":"650eb11afc13ae6d55fd5607"},"name":"Maple","brand":"Maplewood Industries","price":8913,"size":"250x250 inch","quantity":81},{"id":{"$oid":"650eb11afc13ae6d55fd5608"},"name":"Mahogany","brand":"Oakland Timber","price":1654,"size":"500x500 inch","quantity":18},{"id":{"$oid":"650eb11afc13ae6d55fd5609"},"name":"Walnut","brand":"Cedar Creek Co.","price":4497,"size":"250x250 inch","quantity":91},{"id":{"$oid":"650eb11afc13ae6d55fd560a"},"name":"Cherry","brand":"Birchwood Manufacturing","price":1621,"size":"500x500 inch","quantity":43},{"id":{"$oid":"650eb11afc13ae6d55fd560b"},"name":"Birch","brand":"Pinecrest Lumber","price":9983,"size":"1000x1000 inch","quantity":22},{"id":{"$oid":"650eb11afc13ae6d55fd560c"},"name":"Ash","brand":"Hickory Hill Hardwoods","price":2431,"size":"1000x1000 inch","quantity":49},{"id":{"$oid":"650eb11afc13ae6d55fd560d"},"name":"Hickory","brand":"Walnut Grove Woodworks","price":8894,"size":"250x250 inch","quantity":66},{"id":{"$oid":"650eb11afc13ae6d55fd560e"},"name":"Pine","brand":"Cherrywood Carpentry","price":8612,"size":"1000x1000 inch","quantity":23},{"id":{"$oid":"650eb11afc13ae6d55fd560f"},"name":"Cedar","brand":"Mahogany Masters","price":2451,"size":"250x250 inch","quantity":88}],"softwood":[{"id":{"$oid":"650eb11afc13ae6d55fd5610"},"name":"pine","brand":"Oakwood Co.","price":82958,"quantity":96,"size":"250x250 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5611"},"name":"cedar","brand":"Pinecrest Lumber","price":80813,"quantity":81,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5612"},"name":"spruce","brand":"Maple Grove Timber","price":72761,"quantity":11,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5613"},"name":"fir","brand":"Cedarwood Industries","price":99278,"quantity":10,"size":"1000x1000 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5614"},"name":"hemlock","brand":"Birchwood Enterprises","price":60094,"quantity":50,"size":"250x250 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5615"},"name":"cypress","brand":"Mahogany Millworks","price":17559,"quantity":84,"size":"1000x1000 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5616"},"name":"juniper","brand":"Willow Tree Timber","price":61375,"quantity":55,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5617"},"name":"yew","brand":"Cherrywood Products","price":76724,"quantity":97,"size":"1000x1000 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5618"},"name":"redwood","brand":"Walnut Creek Sawmill","price":27061,"quantity":1,"size":"1000x1000 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5619"},"name":"larch","brand":"Hickory Hill Hardwoods","price":73307,"quantity":35,"size":"250x250 inch"}],"composite_wood":[{"id":{"$oid":"650eb11afc13ae6d55fd561a"},"name":"Cross-laminated timber","brand":"Oakwood Co.","price":60153,"quantity":34,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd561b"},"name":"Laminated veneer lumber","brand":"Pinecrest Furniture","price":5262,"quantity":21,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd561c"},"name":"Plywood","brand":"Maplewood Industries","price":24787,"quantity":57,"size":"250x250 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd561d"},"name":"Fiberboard","brand":"Cedar Grove","price":28655,"quantity":83,"size":"1000x1000 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd561e"},"name":"Particleboard","brand":"Birchwood Manufacturing","price":10705,"quantity":61,"size":"1000x1000 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd561f"},"name":"Oriented strand lumber","brand":"Willow Creek Carpentry","price":1529,"quantity":15,"size":"1000x1000 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5620"},"name":"Cross-laminated timber","brand":"Mahogany Masters","price":58707,"quantity":63,"size":"250x250 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5621"},"name":"Laminated veneer lumber","brand":"Cherrywood Creations","price":81216,"quantity":0,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5622"},"name":"Plywood","brand":"Walnut Works","price":59250,"quantity":83,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5623"},"name":"Fiberboard","brand":"Teak Timber","price":27592,"quantity":84,"size":"250x250 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5624"},"name":"Particleboard","brand":"Oakwood Co.","price":91687,"quantity":50,"size":"1000x1000 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5625"},"name":"Oriented strand lumber","brand":"Pinecrest Furniture","price":14467,"quantity":66,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5626"},"name":"Cross-laminated timber","brand":"Maplewood Industries","price":27067,"quantity":75,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5627"},"name":"Laminated veneer lumber","brand":"Cedar Grove","price":41335,"quantity":58,"size":"1000x1000 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5628"},"name":"Plywood","brand":"Birchwood Manufacturing","price":19669,"quantity":29,"size":"250x250 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd5629"},"name":"Fiberboard","brand":"Willow Creek Carpentry","price":33231,"quantity":84,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd562a"},"name":"Particleboard","brand":"Mahogany Masters","price":15986,"quantity":59,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd562b"},"name":"Oriented strand lumber","brand":"Cherrywood Creations","price":31589,"quantity":33,"size":"1000x1000 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd562c"},"name":"Cross-laminated timber","brand":"Walnut Works","price":23195,"quantity":43,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd562d"},"name":"Laminated veneer lumber","brand":"Teak Timber","price":99463,"quantity":46,"size":"500x500 inch"},{"id":{"$oid":"650eb11afc13ae6d55fd562e"},"name":"Plywood","brand":"Oakwood Co.","price":57390,"quantity":86,"size":"250x250 inch"}]}],"cement":[{"id":{"$oid":"650eb11afc13ae6d55fd562f"},"name":"Portland cement","brand":"Acme Cement","price":5270,"quantity":76,"size":"10kg"},{"id":{"$oid":"650eb11afc13ae6d55fd5630"},"name":"Masonry cement","brand":"Global Cement","price":7775,"quantity":30,"size":"10kg"},{"id":{"$oid":"650eb11afc13ae6d55fd5631"},"name":"White cement","brand":"Star Cement","price":5313,"quantity":91,"size":"1kg"},{"id":{"$oid":"650eb11afc13ae6d55fd5632"},"name":"Colored cement","brand":"Evergreen Cement","price":9455,"quantity":72,"size":"1kg"},{"id":{"$oid":"650eb11afc13ae6d55fd5633"},"name":"Rapid hardening cement","brand":"Sunrise Cement","price":3211,"quantity":4,"size":"5kg"},{"id":{"$oid":"650eb11afc13ae6d55fd5634"},"name":"Low heat cement","brand":"Golden Cement","price":4439,"quantity":78,"size":"1kg"},{"id":{"$oid":"650eb11afc13ae6d55fd5635"},"name":"Sulfate resisting cement","brand":"Prime Cement","price":3494,"quantity":11,"size":"10kg"},{"id":{"$oid":"650eb11afc13ae6d55fd5636"},"name":"Oil well cement","brand":"Elite Cement","price":6647,"quantity":10,"size":"10kg"},{"id":{"$oid":"650eb11afc13ae6d55fd5637"},"name":"Blast furnace slag cement","brand":"Mega Cement","price":1095,"quantity":45,"size":"10kg"},{"id":{"$oid":"650eb11afc13ae6d55fd5638"},"name":"Fly ash cement","brand":"Ultra Cement","price":6549,"quantity":76,"size":"1kg"}],"plumbing":[{"id":{"$oid":"650eb11afc13ae6d55fd5639"},"name":"faucet","brand":"AquaFlow","price":4653,"quantity":51},{"id":{"$oid":"650eb11afc13ae6d55fd563a"},"name":"sink","brand":"PlumbPro","price":8777,"quantity":41},{"id":{"$oid":"650eb11afc13ae6d55fd563b"},"name":"toilet","brand":"PipeMaster","price":7052,"quantity":2},{"id":{"$oid":"650eb11afc13ae6d55fd563c"},"name":"shower head","brand":"FlowTech","price":5970,"quantity":83},{"id":{"$oid":"650eb11afc13ae6d55fd563d"},"name":"pipe","brand":"FixItPlumbing","price":2483,"quantity":97},{"id":{"$oid":"650eb11afc13ae6d55fd563e"},"name":"valve","brand":"WaterWorks","price":2892,"quantity":5},{"id":{"$oid":"650eb11afc13ae6d55fd563f"},"name":"plunger","brand":"DrainSolutions","price":2654,"quantity":25},{"id":{"$oid":"650eb11afc13ae6d55fd5640"},"name":"drain","brand":"PlumbKing","price":2491,"quantity":65},{"id":{"$oid":"650eb11afc13ae6d55fd5641"},"name":"water heater","brand":"PipeWizard","price":185,"quantity":34},{"id":{"$oid":"650eb11afc13ae6d55fd5642"},"name":"sewer line","brand":"FlowGuard","price":1693,"quantity":82}]}],"electrical_supplies":[{"sub_categories":["batteries","lighting","wires"],"wires":[{"id":{"$oid":"650eb11afc13ae6d55fd5643"},"name":"copper wire","brand":"Acme Wires","price":9511,"quantity":82,"size":"100m"},{"id":{"$oid":"650eb11afc13ae6d55fd5644"},"name":"aluminum wire","brand":"Global Wire Co.","price":6498,"quantity":70,"size":"500m"},{"id":{"$oid":"650eb11afc13ae6d55fd5645"},"name":"steel wire","brand":"WireTech Solutions","price":2136,"quantity":97,"size":"500m"},{"id":{"$oid":"650eb11afc13ae6d55fd5646"},"name":"fiber optic wire","brand":"MegaWire Industries","price":9894,"quantity":58,"size":"100m"},{"id":{"$oid":"650eb11afc13ae6d55fd5647"},"name":"electrical wire","brand":"SwiftWire Corporation","price":1518,"quantity":65,"size":"100m"},{"id":{"$oid":"650eb11afc13ae6d55fd5648"},"name":"network cable","brand":"PowerLine Wires","price":3173,"quantity":70,"size":"100m"},{"id":{"$oid":"650eb11afc13ae6d55fd5649"},"name":"coaxial cable","brand":"Infinite Cables","price":146,"quantity":15,"size":"100m"},{"id":{"$oid":"650eb11afc13ae6d55fd564a"},"name":"telephone wire","brand":"WireMaster Inc.","price":6599,"quantity":88,"size":"100m"},{"id":{"$oid":"650eb11afc13ae6d55fd564b"},"name":"speaker wire","brand":"EagleWire Systems","price":3375,"quantity":2,"size":"100m"},{"id":{"$oid":"650eb11afc13ae6d55fd564c"},"name":"Ethernet cable","brand":"AlphaWire Technologies","price":5664,"quantity":74,"size":"100m"}],"lighting":[{"id":{"$oid":"650eb11afc13ae6d55fd564d"},"name":"LED bulb","brand":"Lumitech","price":7494,"quantity":94,"details":"1800 lumens 105V"},{"id":{"$oid":"650eb11afc13ae6d55fd564e"},"name":"Fluorescent tube","brand":"GlowTech","price":767,"quantity":33,"details":"1500 lumens 120V"},{"id":{"$oid":"650eb11afc13ae6d55fd564f"},"name":"Incandescent bulb","brand":"BrightSource","price":4630,"quantity":83,"details":"900 lumens 100V"},{"id":{"$oid":"650eb11afc13ae6d55fd5650"},"name":"Halogen lamp","brand":"Radiant Innovations","price":5176,"quantity":70,"details":"2000 lumens 230V"},{"id":{"$oid":"650eb11afc13ae6d55fd5651"},"name":"CFL bulb","brand":"Luminex","price":4193,"quantity":77,"details":"800 lumens 220V"},{"id":{"$oid":"650eb11afc13ae6d55fd5652"},"name":"Track lighting","brand":"LightCraft","price":183,"quantity":95,"details":"1500 lumens 120V"},{"id":{"$oid":"650eb11afc13ae6d55fd5653"},"name":"Chandelier","brand":"GlowTech","price":8780,"quantity":83,"details":"2000 lumens 230V"},{"id":{"$oid":"650eb11afc13ae6d55fd5654"},"name":"Sconce","brand":"IllumiTech","price":1369,"quantity":1,"details":"2000 lumens 230V"},{"id":{"$oid":"650eb11afc13ae6d55fd5655"},"name":"Pendant light","brand":"ShineTech","price":5038,"quantity":4,"details":"1200 lumens 110V"},{"id":{"$oid":"650eb11afc13ae6d55fd5656"},"name":"Recessed lighting","brand":"Lumina","price":7567,"quantity":100,"details":"1000 lumens 240V"}],"batteries":[{"id":{"$oid":"650eb11afc13ae6d55fd5657"},"name":"alkaline","brand":"Duracell","price":408,"quantity":96},{"id":{"$oid":"650eb11afc13ae6d55fd5658"},"name":"lithium-ion","brand":"Energizer","price":594,"quantity":68},{"id":{"$oid":"650eb11afc13ae6d55fd5659"},"name":"nickel-metal hydride","brand":"Panasonic","price":865,"quantity":45},{"id":{"$oid":"650eb11afc13ae6d55fd565a"},"name":"lead-acid","brand":"Sony","price":342,"quantity":82},{"id":{"$oid":"650eb11afc13ae6d55fd565b"},"name":"zinc-carbon","brand":"Rayovac","price":515,"quantity":86},{"id":{"$oid":"650eb11afc13ae6d55fd565c"},"name":"rechargeable","brand":"Eveready","price":313,"quantity":17},{"id":{"$oid":"650eb11afc13ae6d55fd565d"},"name":"button cell","brand":"GP","price":960,"quantity":73},{"id":{"$oid":"650eb11afc13ae6d55fd565e"},"name":"silver oxide","brand":"Varta","price":637,"quantity":40},{"id":{"$oid":"650eb11afc13ae6d55fd565f"},"name":"nickel-cadmium","brand":"Toshiba","price":328,"quantity":54},{"id":{"$oid":"650eb11afc13ae6d55fd5660"},"name":"lithium polymer","brand":"Kodak","price":163,"quantity":59}]}]}]}]
+[
+  {
+    "products": [
+      {
+        "categories": [
+          "building_materials",
+          "safety_equipment",
+          "electrical_supplies",
+          "tools"
+        ],
+        "tools": [
+          {
+            "sub_categories": [
+              "power_tools",
+              "hand_tools",
+              "measuring_tools"
+            ],
+            "power_tools": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ac"
+                },
+                "name": "Electric Drill",
+                "brand": "Bosch",
+                "quantity": 43,
+                "price": 6965
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ad"
+                },
+                "name": "Cordless Screwdriver",
+                "brand": "DeWalt",
+                "quantity": 83,
+                "price": 8610
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ae"
+                },
+                "name": "Power Saw",
+                "brand": "Makita",
+                "quantity": 27,
+                "price": 3334
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55af"
+                },
+                "name": "Angle Grinder",
+                "brand": "Milwaukee",
+                "quantity": 97,
+                "price": 850
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55b0"
+                },
+                "name": "Rotary Hammer",
+                "brand": "Ryobi",
+                "quantity": 79,
+                "price": 4034
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55b1"
+                },
+                "name": "Jigsaw",
+                "brand": "Black & Decker",
+                "quantity": 69,
+                "price": 4385
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55b2"
+                },
+                "name": "Bench Grinder",
+                "brand": "Craftsman",
+                "quantity": 13,
+                "price": 4143
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55b3"
+                },
+                "name": "Circular Saw",
+                "brand": "Hitachi",
+                "quantity": 21,
+                "price": 6813
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55b4"
+                },
+                "name": "Impact Driver",
+                "brand": "Hilti",
+                "quantity": 79,
+                "price": 7291
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55b5"
+                },
+                "name": "Reciprocating Saw",
+                "brand": "Stanley",
+                "quantity": 5,
+                "price": 8395
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55b6"
+                },
+                "name": "Electric Drill",
+                "brand": "Porter-Cable",
+                "quantity": 29,
+                "price": 8866
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55b7"
+                },
+                "name": "Cordless Screwdriver",
+                "brand": "Festool",
+                "quantity": 81,
+                "price": 5497
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55b8"
+                },
+                "name": "Power Saw",
+                "brand": "WORX",
+                "quantity": 50,
+                "price": 6992
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55b9"
+                },
+                "name": "Angle Grinder",
+                "brand": "Kobalt",
+                "quantity": 30,
+                "price": 6611
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ba"
+                },
+                "name": "Rotary Hammer",
+                "brand": "Metabo",
+                "quantity": 19,
+                "price": 739
+              }
+            ],
+            "hand_tools": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55bb"
+                },
+                "name": "Screwdriver",
+                "brand": "Acme",
+                "quantity": 86,
+                "price": 9947
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55bc"
+                },
+                "name": "Hammer",
+                "brand": "ToolPro",
+                "quantity": 74,
+                "price": 3846
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55bd"
+                },
+                "name": "Wrench",
+                "brand": "Craftsman",
+                "quantity": 59,
+                "price": 3288
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55be"
+                },
+                "name": "Pliers",
+                "brand": "Stanley",
+                "quantity": 88,
+                "price": 492
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55bf"
+                },
+                "name": "Saw",
+                "brand": "DeWalt",
+                "quantity": 32,
+                "price": 1538
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55c0"
+                },
+                "name": "Chisel",
+                "brand": "Makita",
+                "quantity": 1,
+                "price": 9036
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55c1"
+                },
+                "name": "Tape Measure",
+                "brand": "Bosch",
+                "quantity": 63,
+                "price": 9639
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55c2"
+                },
+                "name": "Utility Knife",
+                "brand": "Milwaukee",
+                "quantity": 13,
+                "price": 7090
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55c3"
+                },
+                "name": "Level",
+                "brand": "Klein",
+                "quantity": 95,
+                "price": 3655
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55c4"
+                },
+                "name": "Clamp",
+                "brand": "Ridgid",
+                "quantity": 33,
+                "price": 5631
+              }
+            ],
+            "measuring_tools": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55c5"
+                },
+                "brand": "Acme",
+                "name": "Measuring Tape",
+                "price": 181,
+                "quantity": 65
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55c6"
+                },
+                "brand": "ToolPro",
+                "name": "Ruler",
+                "price": 1781,
+                "quantity": 79
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55c7"
+                },
+                "brand": "Precision",
+                "name": "Digital Caliper",
+                "price": 691,
+                "quantity": 92
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55c8"
+                },
+                "brand": "Mastercraft",
+                "name": "Angle Finder",
+                "price": 2560,
+                "quantity": 100
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55c9"
+                },
+                "brand": "ProTool",
+                "name": "Level",
+                "price": 7570,
+                "quantity": 9
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ca"
+                },
+                "brand": "MeasureMax",
+                "name": "Protractor",
+                "price": 3084,
+                "quantity": 80
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55cb"
+                },
+                "brand": "UltimateTools",
+                "name": "Micrometer",
+                "price": 8521,
+                "quantity": 4
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55cc"
+                },
+                "brand": "Superior",
+                "name": "Dial Indicator",
+                "price": 9769,
+                "quantity": 97
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55cd"
+                },
+                "brand": "PrimeMeasure",
+                "name": "Depth Gauge",
+                "price": 5487,
+                "quantity": 76
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ce"
+                },
+                "brand": "ToolTech",
+                "name": "Feeler Gauge",
+                "price": 6003,
+                "quantity": 70
+              }
+            ]
+          }
+        ],
+        "safety_equipment": [
+          {
+            "sub_categories": [
+              "helmets",
+              "gloves"
+            ],
+            "helmets": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55cf"
+                },
+                "name": "Steel Guardian",
+                "brand": "SafeGuard",
+                "price": 4615,
+                "quantity": 40
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55d0"
+                },
+                "name": "Ironclad Protector",
+                "brand": "ProtectPro",
+                "price": 7631,
+                "quantity": 22
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55d1"
+                },
+                "name": "Silver Sentinel",
+                "brand": "SecureHead",
+                "price": 8925,
+                "quantity": 26
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55d2"
+                },
+                "name": "Golden Defender",
+                "brand": "ShieldSafe",
+                "price": 7378,
+                "quantity": 28
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55d3"
+                },
+                "name": "Bronze Guardian",
+                "brand": "GuardianGear",
+                "price": 9683,
+                "quantity": 87
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55d4"
+                },
+                "name": "Platinum Protector",
+                "brand": "SafetyShield",
+                "price": 3838,
+                "quantity": 16
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55d5"
+                },
+                "name": "Emerald Sentinel",
+                "brand": "DefendPro",
+                "price": 6056,
+                "quantity": 3
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55d6"
+                },
+                "name": "Sapphire Defender",
+                "brand": "HelmetGuard",
+                "price": 6533,
+                "quantity": 25
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55d7"
+                },
+                "name": "Ruby Guardian",
+                "brand": "SecureCap",
+                "price": 8216,
+                "quantity": 73
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55d8"
+                },
+                "name": "Diamond Protector",
+                "brand": "ProtectivePro",
+                "price": 9753,
+                "quantity": 50
+              }
+            ],
+            "gloves": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55d9"
+                },
+                "name": "Safety Gloves 1",
+                "brand": "Acme Gloves",
+                "price": 2960,
+                "quantity": 8919
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55da"
+                },
+                "name": "Protective Gloves",
+                "brand": "SureGrip",
+                "price": 9774,
+                "quantity": 8334
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55db"
+                },
+                "name": "Work Gloves",
+                "brand": "FlexFit",
+                "price": 4224,
+                "quantity": 8202
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55dc"
+                },
+                "name": "Industrial Gloves",
+                "brand": "MaxProtect",
+                "price": 7217,
+                "quantity": 7482
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55dd"
+                },
+                "name": "Heavy Duty Gloves",
+                "brand": "GlovoTech",
+                "price": 1575,
+                "quantity": 1439
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55de"
+                },
+                "name": "Cut Resistant Gloves",
+                "brand": "ProGuard",
+                "price": 7751,
+                "quantity": 9208
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55df"
+                },
+                "name": "Chemical Resistant Gloves",
+                "brand": "HandShield",
+                "price": 7252,
+                "quantity": 6999
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55e0"
+                },
+                "name": "Heat Resistant Gloves",
+                "brand": "EliteGrip",
+                "price": 9811,
+                "quantity": 1307
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55e1"
+                },
+                "name": "Disposable Gloves",
+                "brand": "PowerFlex",
+                "price": 4432,
+                "quantity": 5786
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55e2"
+                },
+                "name": "Grip Gloves",
+                "brand": "SecureFit",
+                "price": 5276,
+                "quantity": 8678
+              }
+            ]
+          }
+        ],
+        "building_material": [
+          {
+            "sub_categories": [
+              "tiles",
+              "paint",
+              "lumber",
+              "cement",
+              "plumbing"
+            ],
+            "tiles": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55e3"
+                },
+                "name": "Ceramic Tile",
+                "brand": "Acme Tiles",
+                "price": 825300,
+                "quantity": 28
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55e4"
+                },
+                "name": "Porcelain Tile",
+                "brand": "TileMaster",
+                "price": 614148,
+                "quantity": 20
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55e5"
+                },
+                "name": "Marble Tile",
+                "brand": "Elegant Tiles",
+                "price": 719052,
+                "quantity": 51
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55e6"
+                },
+                "name": "Travertine Tile",
+                "brand": "Royal Ceramics",
+                "price": 389686,
+                "quantity": 33
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55e7"
+                },
+                "name": "Slate Tile",
+                "brand": "Luxury Tiles",
+                "price": 965351,
+                "quantity": 50
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55e8"
+                },
+                "name": "Granite Tile",
+                "brand": "Artisan Tiles",
+                "price": 972082,
+                "quantity": 18
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55e9"
+                },
+                "name": "Glass Tile",
+                "brand": "Elite Tile Co.",
+                "price": 941754,
+                "quantity": 52
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ea"
+                },
+                "name": "Terracotta Tile",
+                "brand": "Premier Tiles",
+                "price": 363153,
+                "quantity": 63
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55eb"
+                },
+                "name": "Quartzite Tile",
+                "brand": "ProTile",
+                "price": 895737,
+                "quantity": 11
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ec"
+                },
+                "name": "Limestone Tile",
+                "brand": "MasterCraft Tiles",
+                "price": 461287,
+                "quantity": 76
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ed"
+                },
+                "name": "Mosaic Tile",
+                "brand": "Designers Choice Tiles",
+                "price": 586311,
+                "quantity": 89
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ee"
+                },
+                "name": "Pebble Tile",
+                "brand": "Infinite Tiles",
+                "price": 103274,
+                "quantity": 16
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55ef"
+                },
+                "name": "Onyx Tile",
+                "brand": "Perfect Tile Solutions",
+                "price": 750719,
+                "quantity": 75
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55f0"
+                },
+                "name": "Metal Tile",
+                "brand": "Mosaic Tile Co.",
+                "price": 655978,
+                "quantity": 48
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd55f1"
+                },
+                "name": "Wood Tile",
+                "brand": "Global Tile Supply",
+                "price": 606545,
+                "quantity": 58
+              }
+            ],
+            "paint": [
+              {
+                "sub_categories": [
+                  "interior",
+                  "exterior"
+                ],
+                "interior": [
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55f2"
+                    },
+                    "name": "Crimson Red",
+                    "brand": "Acme Paints",
+                    "price": 7096,
+                    "size": [
+                      "250ML",
+                      "5L",
+                      "1L",
+                      "10L"
+                    ],
+                    "quantity": 87
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55f3"
+                    },
+                    "name": "Emerald Green",
+                    "brand": "Rainbow Coatings",
+                    "price": 9124,
+                    "size": [
+                      "5L",
+                      "1L",
+                      "10L",
+                      "250ML"
+                    ],
+                    "quantity": 4
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55f4"
+                    },
+                    "name": "Sapphire Blue",
+                    "brand": "ColorMaster",
+                    "price": 5546,
+                    "size": [
+                      "5L",
+                      "1L",
+                      "250ML",
+                      "10L"
+                    ],
+                    "quantity": 82
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55f5"
+                    },
+                    "name": "Goldenrod Yellow",
+                    "brand": "Artisan Paints",
+                    "price": 3691,
+                    "size": [
+                      "250ML",
+                      "5L",
+                      "10L",
+                      "1L"
+                    ],
+                    "quantity": 77
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55f6"
+                    },
+                    "name": "Amethyst Purple",
+                    "brand": "ProFinish",
+                    "price": 8350,
+                    "size": [
+                      "250ML",
+                      "10L",
+                      "5L",
+                      "1L"
+                    ],
+                    "quantity": 98
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55f7"
+                    },
+                    "name": "Turquoise Teal",
+                    "brand": "Vibrant Colors",
+                    "price": 2825,
+                    "size": [
+                      "5L",
+                      "1L",
+                      "250ML",
+                      "10L"
+                    ],
+                    "quantity": 93
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55f8"
+                    },
+                    "name": "Cobalt Blue",
+                    "brand": "Elite Paints",
+                    "price": 9635,
+                    "size": [
+                      "5L",
+                      "10L",
+                      "250ML",
+                      "1L"
+                    ],
+                    "quantity": 2
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55f9"
+                    },
+                    "name": "Coral Pink",
+                    "brand": "PrimeCoat",
+                    "price": 5939,
+                    "size": [
+                      "250ML",
+                      "1L",
+                      "10L",
+                      "5L"
+                    ],
+                    "quantity": 46
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55fa"
+                    },
+                    "name": "Mocha Brown",
+                    "brand": "Palette Perfect",
+                    "price": 4317,
+                    "size": [
+                      "1L",
+                      "250ML",
+                      "5L",
+                      "10L"
+                    ],
+                    "quantity": 94
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55fb"
+                    },
+                    "name": "Lavender Lilac",
+                    "brand": "Masterstroke",
+                    "price": 2369,
+                    "size": [
+                      "5L",
+                      "10L",
+                      "250ML",
+                      "1L"
+                    ],
+                    "quantity": 92
+                  }
+                ],
+                "exterior": [
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55fc"
+                    },
+                    "name": "Coastal Breeze",
+                    "brand": "Sherwin-Williams",
+                    "price": 4924,
+                    "quantity": 18,
+                    "size": "5L"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55fd"
+                    },
+                    "name": "Misty Morning",
+                    "brand": "Behr",
+                    "price": 2566,
+                    "quantity": 97,
+                    "size": "1L"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55fe"
+                    },
+                    "name": "Sandy Shores",
+                    "brand": "Benjamin Moore",
+                    "price": 5083,
+                    "quantity": 10,
+                    "size": "250ML"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd55ff"
+                    },
+                    "name": "Golden Sunset",
+                    "brand": "Valspar",
+                    "price": 7223,
+                    "quantity": 37,
+                    "size": "5L"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5600"
+                    },
+                    "name": "Autumn Glow",
+                    "brand": "Dulux",
+                    "price": 9488,
+                    "quantity": 44,
+                    "size": "10L"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5601"
+                    },
+                    "name": "Whispering Willow",
+                    "brand": "PPG",
+                    "price": 8430,
+                    "quantity": 50,
+                    "size": "10L"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5602"
+                    },
+                    "name": "Harbor Mist",
+                    "brand": "Glidden",
+                    "price": 9371,
+                    "quantity": 72,
+                    "size": "250ML"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5603"
+                    },
+                    "name": "Morning Dew",
+                    "brand": "Farrow & Ball",
+                    "price": 9774,
+                    "quantity": 53,
+                    "size": "1L"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5604"
+                    },
+                    "name": "Silent Sky",
+                    "brand": "Jotun",
+                    "price": 4083,
+                    "quantity": 3,
+                    "size": "5L"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5605"
+                    },
+                    "name": "Dusk Reflection",
+                    "brand": "Nippon",
+                    "price": 6467,
+                    "quantity": 16,
+                    "size": "5L"
+                  }
+                ]
+              }
+            ],
+            "lumber": [
+              {
+                "sub_categories": [
+                  "softwood",
+                  "hardwood",
+                  "composite_wood"
+                ],
+                "hardwood": [
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5606"
+                    },
+                    "name": "Oak",
+                    "brand": "Acme Hardwoods",
+                    "price": 1283,
+                    "size": "250x250 inch",
+                    "quantity": 47
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5607"
+                    },
+                    "name": "Maple",
+                    "brand": "Maplewood Industries",
+                    "price": 8913,
+                    "size": "250x250 inch",
+                    "quantity": 81
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5608"
+                    },
+                    "name": "Mahogany",
+                    "brand": "Oakland Timber",
+                    "price": 1654,
+                    "size": "500x500 inch",
+                    "quantity": 18
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5609"
+                    },
+                    "name": "Walnut",
+                    "brand": "Cedar Creek Co.",
+                    "price": 4497,
+                    "size": "250x250 inch",
+                    "quantity": 91
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd560a"
+                    },
+                    "name": "Cherry",
+                    "brand": "Birchwood Manufacturing",
+                    "price": 1621,
+                    "size": "500x500 inch",
+                    "quantity": 43
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd560b"
+                    },
+                    "name": "Birch",
+                    "brand": "Pinecrest Lumber",
+                    "price": 9983,
+                    "size": "1000x1000 inch",
+                    "quantity": 22
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd560c"
+                    },
+                    "name": "Ash",
+                    "brand": "Hickory Hill Hardwoods",
+                    "price": 2431,
+                    "size": "1000x1000 inch",
+                    "quantity": 49
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd560d"
+                    },
+                    "name": "Hickory",
+                    "brand": "Walnut Grove Woodworks",
+                    "price": 8894,
+                    "size": "250x250 inch",
+                    "quantity": 66
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd560e"
+                    },
+                    "name": "Pine",
+                    "brand": "Cherrywood Carpentry",
+                    "price": 8612,
+                    "size": "1000x1000 inch",
+                    "quantity": 23
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd560f"
+                    },
+                    "name": "Cedar",
+                    "brand": "Mahogany Masters",
+                    "price": 2451,
+                    "size": "250x250 inch",
+                    "quantity": 88
+                  }
+                ],
+                "softwood": [
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5610"
+                    },
+                    "name": "pine",
+                    "brand": "Oakwood Co.",
+                    "price": 82958,
+                    "quantity": 96,
+                    "size": "250x250 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5611"
+                    },
+                    "name": "cedar",
+                    "brand": "Pinecrest Lumber",
+                    "price": 80813,
+                    "quantity": 81,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5612"
+                    },
+                    "name": "spruce",
+                    "brand": "Maple Grove Timber",
+                    "price": 72761,
+                    "quantity": 11,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5613"
+                    },
+                    "name": "fir",
+                    "brand": "Cedarwood Industries",
+                    "price": 99278,
+                    "quantity": 10,
+                    "size": "1000x1000 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5614"
+                    },
+                    "name": "hemlock",
+                    "brand": "Birchwood Enterprises",
+                    "price": 60094,
+                    "quantity": 50,
+                    "size": "250x250 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5615"
+                    },
+                    "name": "cypress",
+                    "brand": "Mahogany Millworks",
+                    "price": 17559,
+                    "quantity": 84,
+                    "size": "1000x1000 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5616"
+                    },
+                    "name": "juniper",
+                    "brand": "Willow Tree Timber",
+                    "price": 61375,
+                    "quantity": 55,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5617"
+                    },
+                    "name": "yew",
+                    "brand": "Cherrywood Products",
+                    "price": 76724,
+                    "quantity": 97,
+                    "size": "1000x1000 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5618"
+                    },
+                    "name": "redwood",
+                    "brand": "Walnut Creek Sawmill",
+                    "price": 27061,
+                    "quantity": 1,
+                    "size": "1000x1000 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5619"
+                    },
+                    "name": "larch",
+                    "brand": "Hickory Hill Hardwoods",
+                    "price": 73307,
+                    "quantity": 35,
+                    "size": "250x250 inch"
+                  }
+                ],
+                "composite_wood": [
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd561a"
+                    },
+                    "name": "Cross-laminated timber",
+                    "brand": "Oakwood Co.",
+                    "price": 60153,
+                    "quantity": 34,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd561b"
+                    },
+                    "name": "Laminated veneer lumber",
+                    "brand": "Pinecrest Furniture",
+                    "price": 5262,
+                    "quantity": 21,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd561c"
+                    },
+                    "name": "Plywood",
+                    "brand": "Maplewood Industries",
+                    "price": 24787,
+                    "quantity": 57,
+                    "size": "250x250 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd561d"
+                    },
+                    "name": "Fiberboard",
+                    "brand": "Cedar Grove",
+                    "price": 28655,
+                    "quantity": 83,
+                    "size": "1000x1000 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd561e"
+                    },
+                    "name": "Particleboard",
+                    "brand": "Birchwood Manufacturing",
+                    "price": 10705,
+                    "quantity": 61,
+                    "size": "1000x1000 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd561f"
+                    },
+                    "name": "Oriented strand lumber",
+                    "brand": "Willow Creek Carpentry",
+                    "price": 1529,
+                    "quantity": 15,
+                    "size": "1000x1000 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5620"
+                    },
+                    "name": "Cross-laminated timber",
+                    "brand": "Mahogany Masters",
+                    "price": 58707,
+                    "quantity": 63,
+                    "size": "250x250 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5621"
+                    },
+                    "name": "Laminated veneer lumber",
+                    "brand": "Cherrywood Creations",
+                    "price": 81216,
+                    "quantity": 0,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5622"
+                    },
+                    "name": "Plywood",
+                    "brand": "Walnut Works",
+                    "price": 59250,
+                    "quantity": 83,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5623"
+                    },
+                    "name": "Fiberboard",
+                    "brand": "Teak Timber",
+                    "price": 27592,
+                    "quantity": 84,
+                    "size": "250x250 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5624"
+                    },
+                    "name": "Particleboard",
+                    "brand": "Oakwood Co.",
+                    "price": 91687,
+                    "quantity": 50,
+                    "size": "1000x1000 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5625"
+                    },
+                    "name": "Oriented strand lumber",
+                    "brand": "Pinecrest Furniture",
+                    "price": 14467,
+                    "quantity": 66,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5626"
+                    },
+                    "name": "Cross-laminated timber",
+                    "brand": "Maplewood Industries",
+                    "price": 27067,
+                    "quantity": 75,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5627"
+                    },
+                    "name": "Laminated veneer lumber",
+                    "brand": "Cedar Grove",
+                    "price": 41335,
+                    "quantity": 58,
+                    "size": "1000x1000 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5628"
+                    },
+                    "name": "Plywood",
+                    "brand": "Birchwood Manufacturing",
+                    "price": 19669,
+                    "quantity": 29,
+                    "size": "250x250 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd5629"
+                    },
+                    "name": "Fiberboard",
+                    "brand": "Willow Creek Carpentry",
+                    "price": 33231,
+                    "quantity": 84,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd562a"
+                    },
+                    "name": "Particleboard",
+                    "brand": "Mahogany Masters",
+                    "price": 15986,
+                    "quantity": 59,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd562b"
+                    },
+                    "name": "Oriented strand lumber",
+                    "brand": "Cherrywood Creations",
+                    "price": 31589,
+                    "quantity": 33,
+                    "size": "1000x1000 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd562c"
+                    },
+                    "name": "Cross-laminated timber",
+                    "brand": "Walnut Works",
+                    "price": 23195,
+                    "quantity": 43,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd562d"
+                    },
+                    "name": "Laminated veneer lumber",
+                    "brand": "Teak Timber",
+                    "price": 99463,
+                    "quantity": 46,
+                    "size": "500x500 inch"
+                  },
+                  {
+                    "id": {
+                      "$oid": "650eb11afc13ae6d55fd562e"
+                    },
+                    "name": "Plywood",
+                    "brand": "Oakwood Co.",
+                    "price": 57390,
+                    "quantity": 86,
+                    "size": "250x250 inch"
+                  }
+                ]
+              }
+            ],
+            "cement": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd562f"
+                },
+                "name": "Portland cement",
+                "brand": "Acme Cement",
+                "price": 5270,
+                "quantity": 76,
+                "size": "10kg"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5630"
+                },
+                "name": "Masonry cement",
+                "brand": "Global Cement",
+                "price": 7775,
+                "quantity": 30,
+                "size": "10kg"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5631"
+                },
+                "name": "White cement",
+                "brand": "Star Cement",
+                "price": 5313,
+                "quantity": 91,
+                "size": "1kg"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5632"
+                },
+                "name": "Colored cement",
+                "brand": "Evergreen Cement",
+                "price": 9455,
+                "quantity": 72,
+                "size": "1kg"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5633"
+                },
+                "name": "Rapid hardening cement",
+                "brand": "Sunrise Cement",
+                "price": 3211,
+                "quantity": 4,
+                "size": "5kg"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5634"
+                },
+                "name": "Low heat cement",
+                "brand": "Golden Cement",
+                "price": 4439,
+                "quantity": 78,
+                "size": "1kg"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5635"
+                },
+                "name": "Sulfate resisting cement",
+                "brand": "Prime Cement",
+                "price": 3494,
+                "quantity": 11,
+                "size": "10kg"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5636"
+                },
+                "name": "Oil well cement",
+                "brand": "Elite Cement",
+                "price": 6647,
+                "quantity": 10,
+                "size": "10kg"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5637"
+                },
+                "name": "Blast furnace slag cement",
+                "brand": "Mega Cement",
+                "price": 1095,
+                "quantity": 45,
+                "size": "10kg"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5638"
+                },
+                "name": "Fly ash cement",
+                "brand": "Ultra Cement",
+                "price": 6549,
+                "quantity": 76,
+                "size": "1kg"
+              }
+            ],
+            "plumbing": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5639"
+                },
+                "name": "faucet",
+                "brand": "AquaFlow",
+                "price": 4653,
+                "quantity": 51
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd563a"
+                },
+                "name": "sink",
+                "brand": "PlumbPro",
+                "price": 8777,
+                "quantity": 41
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd563b"
+                },
+                "name": "toilet",
+                "brand": "PipeMaster",
+                "price": 7052,
+                "quantity": 2
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd563c"
+                },
+                "name": "shower head",
+                "brand": "FlowTech",
+                "price": 5970,
+                "quantity": 83
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd563d"
+                },
+                "name": "pipe",
+                "brand": "FixItPlumbing",
+                "price": 2483,
+                "quantity": 97
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd563e"
+                },
+                "name": "valve",
+                "brand": "WaterWorks",
+                "price": 2892,
+                "quantity": 5
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd563f"
+                },
+                "name": "plunger",
+                "brand": "DrainSolutions",
+                "price": 2654,
+                "quantity": 25
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5640"
+                },
+                "name": "drain",
+                "brand": "PlumbKing",
+                "price": 2491,
+                "quantity": 65
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5641"
+                },
+                "name": "water heater",
+                "brand": "PipeWizard",
+                "price": 185,
+                "quantity": 34
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5642"
+                },
+                "name": "sewer line",
+                "brand": "FlowGuard",
+                "price": 1693,
+                "quantity": 82
+              }
+            ]
+          }
+        ],
+        "electrical_supplies": [
+          {
+            "sub_categories": [
+              "batteries",
+              "lighting",
+              "wires"
+            ],
+            "wires": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5643"
+                },
+                "name": "copper wire",
+                "brand": "Acme Wires",
+                "price": 9511,
+                "quantity": 82,
+                "size": "100m"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5644"
+                },
+                "name": "aluminum wire",
+                "brand": "Global Wire Co.",
+                "price": 6498,
+                "quantity": 70,
+                "size": "500m"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5645"
+                },
+                "name": "steel wire",
+                "brand": "WireTech Solutions",
+                "price": 2136,
+                "quantity": 97,
+                "size": "500m"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5646"
+                },
+                "name": "fiber optic wire",
+                "brand": "MegaWire Industries",
+                "price": 9894,
+                "quantity": 58,
+                "size": "100m"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5647"
+                },
+                "name": "electrical wire",
+                "brand": "SwiftWire Corporation",
+                "price": 1518,
+                "quantity": 65,
+                "size": "100m"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5648"
+                },
+                "name": "network cable",
+                "brand": "PowerLine Wires",
+                "price": 3173,
+                "quantity": 70,
+                "size": "100m"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5649"
+                },
+                "name": "coaxial cable",
+                "brand": "Infinite Cables",
+                "price": 146,
+                "quantity": 15,
+                "size": "100m"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd564a"
+                },
+                "name": "telephone wire",
+                "brand": "WireMaster Inc.",
+                "price": 6599,
+                "quantity": 88,
+                "size": "100m"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd564b"
+                },
+                "name": "speaker wire",
+                "brand": "EagleWire Systems",
+                "price": 3375,
+                "quantity": 2,
+                "size": "100m"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd564c"
+                },
+                "name": "Ethernet cable",
+                "brand": "AlphaWire Technologies",
+                "price": 5664,
+                "quantity": 74,
+                "size": "100m"
+              }
+            ],
+            "lighting": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd564d"
+                },
+                "name": "LED bulb",
+                "brand": "Lumitech",
+                "price": 7494,
+                "quantity": 94,
+                "details": "1800 lumens 105V"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd564e"
+                },
+                "name": "Fluorescent tube",
+                "brand": "GlowTech",
+                "price": 767,
+                "quantity": 33,
+                "details": "1500 lumens 120V"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd564f"
+                },
+                "name": "Incandescent bulb",
+                "brand": "BrightSource",
+                "price": 4630,
+                "quantity": 83,
+                "details": "900 lumens 100V"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5650"
+                },
+                "name": "Halogen lamp",
+                "brand": "Radiant Innovations",
+                "price": 5176,
+                "quantity": 70,
+                "details": "2000 lumens 230V"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5651"
+                },
+                "name": "CFL bulb",
+                "brand": "Luminex",
+                "price": 4193,
+                "quantity": 77,
+                "details": "800 lumens 220V"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5652"
+                },
+                "name": "Track lighting",
+                "brand": "LightCraft",
+                "price": 183,
+                "quantity": 95,
+                "details": "1500 lumens 120V"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5653"
+                },
+                "name": "Chandelier",
+                "brand": "GlowTech",
+                "price": 8780,
+                "quantity": 83,
+                "details": "2000 lumens 230V"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5654"
+                },
+                "name": "Sconce",
+                "brand": "IllumiTech",
+                "price": 1369,
+                "quantity": 1,
+                "details": "2000 lumens 230V"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5655"
+                },
+                "name": "Pendant light",
+                "brand": "ShineTech",
+                "price": 5038,
+                "quantity": 4,
+                "details": "1200 lumens 110V"
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5656"
+                },
+                "name": "Recessed lighting",
+                "brand": "Lumina",
+                "price": 7567,
+                "quantity": 100,
+                "details": "1000 lumens 240V"
+              }
+            ],
+            "batteries": [
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5657"
+                },
+                "name": "alkaline",
+                "brand": "Duracell",
+                "price": 408,
+                "quantity": 96
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5658"
+                },
+                "name": "lithium-ion",
+                "brand": "Energizer",
+                "price": 594,
+                "quantity": 68
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5659"
+                },
+                "name": "nickel-metal hydride",
+                "brand": "Panasonic",
+                "price": 865,
+                "quantity": 45
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd565a"
+                },
+                "name": "lead-acid",
+                "brand": "Sony",
+                "price": 342,
+                "quantity": 82
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd565b"
+                },
+                "name": "zinc-carbon",
+                "brand": "Rayovac",
+                "price": 515,
+                "quantity": 86
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd565c"
+                },
+                "name": "rechargeable",
+                "brand": "Eveready",
+                "price": 313,
+                "quantity": 17
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd565d"
+                },
+                "name": "button cell",
+                "brand": "GP",
+                "price": 960,
+                "quantity": 73
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd565e"
+                },
+                "name": "silver oxide",
+                "brand": "Varta",
+                "price": 637,
+                "quantity": 40
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd565f"
+                },
+                "name": "nickel-cadmium",
+                "brand": "Toshiba",
+                "price": 328,
+                "quantity": 54
+              },
+              {
+                "id": {
+                  "$oid": "650eb11afc13ae6d55fd5660"
+                },
+                "name": "lithium polymer",
+                "brand": "Kodak",
+                "price": 163,
+                "quantity": 59
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

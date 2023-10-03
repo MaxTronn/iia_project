@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "description": "living room",
+    "service_list": [
+      "electrician",
+      "carpenter",
+      "painter"
+    ],
+    "item_list": [
+      "Tables",
+      "Sofas",
+      "Chairs",
+      "electrical_supplies",
+      "building_material",
+      "safety_equipment",
+      "TVs",
+      "Home Appliances"
+    ]
+  },
+  {
+    "id": 2,
+    "description": "kitchen",
+    "service_list": [
+      "electrician",
+      "carpenter",
+      "painter",
+      "mason",
+      "plumber"
+    ],
+    "item_list": [
+      "Tables",
+      "Chairs",
+      "electrical_supplies",
+      "tools",
+      "building_material",
+      "safety_equipment",
+      "Home Appliances",
+      "Cabinets"
+    ]
+  },
+  {
+    "id": 3,
+    "description": "bedroom",
+    "service_list": [
+      "electrician",
+      "carpenter",
+      "painter",
+      "mason"
+    ],
+    "item_list": [
+      "electrical_supplies",
+      "tools",
+      "Beds",
+      "Chairsbuilding_material",
+      "safety_equipment",
+      "Home Appliances",
+      "Cabinets"
+    ]
+  },
+  {
+    "id": 4,
+    "description": "bathroom",
+    "service_list": [
+      "electrician",
+      "carpenter",
+      "painter",
+      "mason",
+      "plumber"
+    ],
+    "item_list": [
+      "electrical_supplies",
+      "tools",
+      "building_material",
+      "safety_equipment",
+      "TVsHome Appliances",
+      "Cabinets"
+    ]
+  },
+  {
+    "id": 5,
+    "description": "office",
+    "service_list": [
+      "electrician",
+      "carpenter",
+      "painter",
+      "mason"
+    ],
+    "item_list": [
+      "electrical_supplies",
+      "tools",
+      "building_material",
+      "safety_equipment",
+      "TVsHome Appliances",
+      "Cabinets",
+      "Tables",
+      "Chairs",
+      "Laptops",
+      "Smartphones"
+    ]
+  }
+]

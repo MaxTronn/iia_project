@@ -1,1 +1,472 @@
-[{"products":[{"categories":["Home Appliances","TVs","Laptops","Smartphones"],"TVs":[{"id":{"$oid":"650eb610fc13ae6d55fd6a16"},"type":"HD TV","brand":"Sceptre","price":21521,"size":"32 inches","quantity":28},{"id":{"$oid":"650eb610fc13ae6d55fd6a17"},"type":"8K TV","brand":"Toshiba","price":29136,"size":"42 inches","quantity":92},{"id":{"$oid":"650eb610fc13ae6d55fd6a18"},"type":"8K TV","brand":"RCA","price":47882,"size":"32 inches","quantity":89},{"id":{"$oid":"650eb610fc13ae6d55fd6a19"},"type":"Plasma","brand":"Samsung","price":99093,"size":"50 inches","quantity":55},{"id":{"$oid":"650eb610fc13ae6d55fd6a1a"},"type":"QLED","brand":"LG","price":23828,"size":"55 inches","quantity":60},{"id":{"$oid":"650eb610fc13ae6d55fd6a1b"},"type":"QLED","brand":"LG","price":27111,"size":"65 inches","quantity":67},{"id":{"$oid":"650eb610fc13ae6d55fd6a1c"},"type":"Plasma","brand":"Vizio","price":99558,"size":"50 inches","quantity":29},{"id":{"$oid":"650eb610fc13ae6d55fd6a1d"},"type":"Ultra HD TV","brand":"RCA","price":17761,"size":"42 inches","quantity":74},{"id":{"$oid":"650eb610fc13ae6d55fd6a1e"},"type":"Ultra HD TV","brand":"Element","price":75548,"size":"42 inches","quantity":40},{"id":{"$oid":"650eb610fc13ae6d55fd6a1f"},"type":"Plasma","brand":"TCL","price":44021,"size":"55 inches","quantity":31},{"id":{"$oid":"650eb610fc13ae6d55fd6a20"},"type":"Curved TV","brand":"Panasonic","price":11208,"size":"65 inches","quantity":53},{"id":{"$oid":"650eb610fc13ae6d55fd6a21"},"type":"Mini LED TV","brand":"Westinghouse","price":12799,"size":"50 inches","quantity":96},{"id":{"$oid":"650eb610fc13ae6d55fd6a22"},"type":"Plasma","brand":"LG","price":98938,"size":"55 inches","quantity":87},{"id":{"$oid":"650eb610fc13ae6d55fd6a23"},"type":"QLED","brand":"Sceptre","price":33905,"size":"42 inches","quantity":30},{"id":{"$oid":"650eb610fc13ae6d55fd6a24"},"type":"8K TV","brand":"Westinghouse","price":10950,"size":"32 inches","quantity":69}],"Laptops":[{"id":{"$oid":"650eb610fc13ae6d55fd6a25"},"name":"Dell XPS 13","brand":"Dell","price":63465,"quantity":5,"size":"13.3 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a26"},"name":"HP Spectre x360","brand":"HP","price":112473,"quantity":16,"size":"17 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a27"},"name":"Lenovo ThinkPad X1 Carbon","brand":"Lenovo","price":80696,"quantity":18,"size":"10 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a28"},"name":"Asus ZenBook Pro Duo","brand":"Asus","price":86215,"quantity":3,"size":"12 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a29"},"name":"Apple MacBook Pro","brand":"Apple","price":96400,"quantity":7,"size":"15 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a2a"},"name":"Acer Predator Helios 300","brand":"Acer","price":72003,"quantity":11,"size":"16 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a2b"},"name":"Microsoft Surface Laptop 3","brand":"Microsoft","price":107252,"quantity":12,"size":"14 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a2c"},"name":"Razer Blade 15","brand":"Razer","price":99083,"quantity":4,"size":"17 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a2d"},"name":"Alienware Area-51m","brand":"Alienware Samsung","price":58862,"quantity":16,"size":"16 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a2e"},"name":"Samsung Galaxy Book Flex","brand":"Dell","price":99233,"quantity":10,"size":"16 inches"}],"Smartphones":[{"id":{"$oid":"650eb610fc13ae6d55fd6a2f"},"name":"Pixel 5","brand":"Samsung","price":53682,"quantity":18,"size":"5.6 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a30"},"name":"iPhone 12","brand":"Apple","price":86752,"quantity":17,"size":"6.2 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a31"},"name":"Galaxy S21","brand":"Huawei","price":84601,"quantity":3,"size":"6.1 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a32"},"name":"OnePlus 9","brand":"Xiaomi","price":18374,"quantity":8,"size":"5.6 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a33"},"name":"Xperia 1 III","brand":"Google","price":37404,"quantity":2,"size":"5.9 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a34"},"name":"Mi 11","brand":"OnePlus","price":22894,"quantity":14,"size":"6 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a35"},"name":"Mate 40 Pro","brand":"LG","price":61270,"quantity":19,"size":"5.5 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a36"},"name":"LG Velvet","brand":"Sony","price":63085,"quantity":10,"size":"6.1 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a37"},"name":"Nokia 8.3","brand":"Nokia","price":22808,"quantity":4,"size":"6 inches"},{"id":{"$oid":"650eb610fc13ae6d55fd6a38"},"name":"Motorola Edge+","brand":"Motorola","price":59452,"quantity":4,"size":"5.6 inches"}],"Home Appliances":[{"id":{"$oid":"650eb610fc13ae6d55fd6a39"},"name":"refrigerator","brand":"Toshiba","size":"jumbo","price":96984,"quantity":55},{"id":{"$oid":"650eb610fc13ae6d55fd6a3a"},"name":"coffee maker","brand":"LG","size":"mini","price":89489,"quantity":47},{"id":{"$oid":"650eb610fc13ae6d55fd6a3b"},"name":"blender","brand":"Electrolux","size":"standard","price":87491,"quantity":62},{"id":{"$oid":"650eb610fc13ae6d55fd6a3c"},"name":"coffee maker","brand":"LG","size":"compact","price":64255,"quantity":21},{"id":{"$oid":"650eb610fc13ae6d55fd6a3d"},"name":"coffee maker","brand":"LG","size":"jumbo","price":54247,"quantity":59},{"id":{"$oid":"650eb610fc13ae6d55fd6a3e"},"name":"toaster","brand":"Toshiba","size":"medium","price":53922,"quantity":76},{"id":{"$oid":"650eb610fc13ae6d55fd6a3f"},"name":"microwave","brand":"Sony","size":"oversized","price":97634,"quantity":78},{"id":{"$oid":"650eb610fc13ae6d55fd6a40"},"name":"dishwasher","brand":"Electrolux","size":"jumbo","price":64973,"quantity":51},{"id":{"$oid":"650eb610fc13ae6d55fd6a41"},"name":"microwave","brand":"Panasonic","size":"medium","price":89541,"quantity":16},{"id":{"$oid":"650eb610fc13ae6d55fd6a42"},"name":"dishwasher","brand":"Panasonic","size":"small","price":93141,"quantity":44}]}]}]
+[
+  {
+    "products": [
+      {
+        "categories": [
+          "Home Appliances",
+          "TVs",
+          "Laptops",
+          "Smartphones"
+        ],
+        "TVs": [
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a16"
+            },
+            "type": "HD TV",
+            "brand": "Sceptre",
+            "price": 21521,
+            "size": "32 inches",
+            "quantity": 28
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a17"
+            },
+            "type": "8K TV",
+            "brand": "Toshiba",
+            "price": 29136,
+            "size": "42 inches",
+            "quantity": 92
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a18"
+            },
+            "type": "8K TV",
+            "brand": "RCA",
+            "price": 47882,
+            "size": "32 inches",
+            "quantity": 89
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a19"
+            },
+            "type": "Plasma",
+            "brand": "Samsung",
+            "price": 99093,
+            "size": "50 inches",
+            "quantity": 55
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a1a"
+            },
+            "type": "QLED",
+            "brand": "LG",
+            "price": 23828,
+            "size": "55 inches",
+            "quantity": 60
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a1b"
+            },
+            "type": "QLED",
+            "brand": "LG",
+            "price": 27111,
+            "size": "65 inches",
+            "quantity": 67
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a1c"
+            },
+            "type": "Plasma",
+            "brand": "Vizio",
+            "price": 99558,
+            "size": "50 inches",
+            "quantity": 29
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a1d"
+            },
+            "type": "Ultra HD TV",
+            "brand": "RCA",
+            "price": 17761,
+            "size": "42 inches",
+            "quantity": 74
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a1e"
+            },
+            "type": "Ultra HD TV",
+            "brand": "Element",
+            "price": 75548,
+            "size": "42 inches",
+            "quantity": 40
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a1f"
+            },
+            "type": "Plasma",
+            "brand": "TCL",
+            "price": 44021,
+            "size": "55 inches",
+            "quantity": 31
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a20"
+            },
+            "type": "Curved TV",
+            "brand": "Panasonic",
+            "price": 11208,
+            "size": "65 inches",
+            "quantity": 53
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a21"
+            },
+            "type": "Mini LED TV",
+            "brand": "Westinghouse",
+            "price": 12799,
+            "size": "50 inches",
+            "quantity": 96
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a22"
+            },
+            "type": "Plasma",
+            "brand": "LG",
+            "price": 98938,
+            "size": "55 inches",
+            "quantity": 87
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a23"
+            },
+            "type": "QLED",
+            "brand": "Sceptre",
+            "price": 33905,
+            "size": "42 inches",
+            "quantity": 30
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a24"
+            },
+            "type": "8K TV",
+            "brand": "Westinghouse",
+            "price": 10950,
+            "size": "32 inches",
+            "quantity": 69
+          }
+        ],
+        "Laptops": [
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a25"
+            },
+            "name": "Dell XPS 13",
+            "brand": "Dell",
+            "price": 63465,
+            "quantity": 5,
+            "size": "13.3 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a26"
+            },
+            "name": "HP Spectre x360",
+            "brand": "HP",
+            "price": 112473,
+            "quantity": 16,
+            "size": "17 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a27"
+            },
+            "name": "Lenovo ThinkPad X1 Carbon",
+            "brand": "Lenovo",
+            "price": 80696,
+            "quantity": 18,
+            "size": "10 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a28"
+            },
+            "name": "Asus ZenBook Pro Duo",
+            "brand": "Asus",
+            "price": 86215,
+            "quantity": 3,
+            "size": "12 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a29"
+            },
+            "name": "Apple MacBook Pro",
+            "brand": "Apple",
+            "price": 96400,
+            "quantity": 7,
+            "size": "15 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a2a"
+            },
+            "name": "Acer Predator Helios 300",
+            "brand": "Acer",
+            "price": 72003,
+            "quantity": 11,
+            "size": "16 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a2b"
+            },
+            "name": "Microsoft Surface Laptop 3",
+            "brand": "Microsoft",
+            "price": 107252,
+            "quantity": 12,
+            "size": "14 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a2c"
+            },
+            "name": "Razer Blade 15",
+            "brand": "Razer",
+            "price": 99083,
+            "quantity": 4,
+            "size": "17 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a2d"
+            },
+            "name": "Alienware Area-51m",
+            "brand": "Alienware Samsung",
+            "price": 58862,
+            "quantity": 16,
+            "size": "16 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a2e"
+            },
+            "name": "Samsung Galaxy Book Flex",
+            "brand": "Dell",
+            "price": 99233,
+            "quantity": 10,
+            "size": "16 inches"
+          }
+        ],
+        "Smartphones": [
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a2f"
+            },
+            "name": "Pixel 5",
+            "brand": "Samsung",
+            "price": 53682,
+            "quantity": 18,
+            "size": "5.6 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a30"
+            },
+            "name": "iPhone 12",
+            "brand": "Apple",
+            "price": 86752,
+            "quantity": 17,
+            "size": "6.2 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a31"
+            },
+            "name": "Galaxy S21",
+            "brand": "Huawei",
+            "price": 84601,
+            "quantity": 3,
+            "size": "6.1 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a32"
+            },
+            "name": "OnePlus 9",
+            "brand": "Xiaomi",
+            "price": 18374,
+            "quantity": 8,
+            "size": "5.6 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a33"
+            },
+            "name": "Xperia 1 III",
+            "brand": "Google",
+            "price": 37404,
+            "quantity": 2,
+            "size": "5.9 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a34"
+            },
+            "name": "Mi 11",
+            "brand": "OnePlus",
+            "price": 22894,
+            "quantity": 14,
+            "size": "6 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a35"
+            },
+            "name": "Mate 40 Pro",
+            "brand": "LG",
+            "price": 61270,
+            "quantity": 19,
+            "size": "5.5 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a36"
+            },
+            "name": "LG Velvet",
+            "brand": "Sony",
+            "price": 63085,
+            "quantity": 10,
+            "size": "6.1 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a37"
+            },
+            "name": "Nokia 8.3",
+            "brand": "Nokia",
+            "price": 22808,
+            "quantity": 4,
+            "size": "6 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a38"
+            },
+            "name": "Motorola Edge+",
+            "brand": "Motorola",
+            "price": 59452,
+            "quantity": 4,
+            "size": "5.6 inches"
+          }
+        ],
+        "Home Appliances": [
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a39"
+            },
+            "name": "refrigerator",
+            "brand": "Toshiba",
+            "size": "jumbo",
+            "price": 96984,
+            "quantity": 55
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a3a"
+            },
+            "name": "coffee maker",
+            "brand": "LG",
+            "size": "mini",
+            "price": 89489,
+            "quantity": 47
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a3b"
+            },
+            "name": "blender",
+            "brand": "Electrolux",
+            "size": "standard",
+            "price": 87491,
+            "quantity": 62
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a3c"
+            },
+            "name": "coffee maker",
+            "brand": "LG",
+            "size": "compact",
+            "price": 64255,
+            "quantity": 21
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a3d"
+            },
+            "name": "coffee maker",
+            "brand": "LG",
+            "size": "jumbo",
+            "price": 54247,
+            "quantity": 59
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a3e"
+            },
+            "name": "toaster",
+            "brand": "Toshiba",
+            "size": "medium",
+            "price": 53922,
+            "quantity": 76
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a3f"
+            },
+            "name": "microwave",
+            "brand": "Sony",
+            "size": "oversized",
+            "price": 97634,
+            "quantity": 78
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a40"
+            },
+            "name": "dishwasher",
+            "brand": "Electrolux",
+            "size": "jumbo",
+            "price": 64973,
+            "quantity": 51
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a41"
+            },
+            "name": "microwave",
+            "brand": "Panasonic",
+            "size": "medium",
+            "price": 89541,
+            "quantity": 16
+          },
+          {
+            "id": {
+              "$oid": "650eb610fc13ae6d55fd6a42"
+            },
+            "name": "dishwasher",
+            "brand": "Panasonic",
+            "size": "small",
+            "price": 93141,
+            "quantity": 44
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,1 +1,472 @@
-[{"products":[{"categories":["Laptops","Home Appliances","Smartphones","TVs"],"TVs":[{"id":{"$oid":"650eb619fc13ae6cf2fd5d92"},"type":"HD TV","brand":"Hisense","price":52052,"size":"50 inches","quantity":81},{"id":{"$oid":"650eb619fc13ae6cf2fd5d93"},"type":"Full HD TV","brand":"RCA","price":53441,"size":"32 inches","quantity":48},{"id":{"$oid":"650eb619fc13ae6cf2fd5d94"},"type":"OLED","brand":"LG","price":86798,"size":"55 inches","quantity":41},{"id":{"$oid":"650eb619fc13ae6cf2fd5d95"},"type":"4K TV","brand":"Toshiba","price":20781,"size":"50 inches","quantity":14},{"id":{"$oid":"650eb619fc13ae6cf2fd5d96"},"type":"Curved TV","brand":"Hisense","price":62306,"size":"42 inches","quantity":59},{"id":{"$oid":"650eb619fc13ae6cf2fd5d97"},"type":"4K TV","brand":"Panasonic","price":30629,"size":"65 inches","quantity":66},{"id":{"$oid":"650eb619fc13ae6cf2fd5d98"},"type":"8K TV","brand":"Panasonic","price":38044,"size":"65 inches","quantity":3},{"id":{"$oid":"650eb619fc13ae6cf2fd5d99"},"type":"QLED","brand":"Sceptre","price":19413,"size":"32 inches","quantity":62},{"id":{"$oid":"650eb619fc13ae6cf2fd5d9a"},"type":"Curved TV","brand":"LG","price":44159,"size":"50 inches","quantity":32},{"id":{"$oid":"650eb619fc13ae6cf2fd5d9b"},"type":"4K TV","brand":"LG","price":47669,"size":"32 inches","quantity":99},{"id":{"$oid":"650eb619fc13ae6cf2fd5d9c"},"type":"CRT","brand":"Panasonic","price":14908,"size":"32 inches","quantity":35},{"id":{"$oid":"650eb619fc13ae6cf2fd5d9d"},"type":"Smart TV","brand":"Samsung","price":65235,"size":"32 inches","quantity":33},{"id":{"$oid":"650eb619fc13ae6cf2fd5d9e"},"type":"Full HD TV","brand":"Sceptre","price":75811,"size":"32 inches","quantity":84},{"id":{"$oid":"650eb619fc13ae6cf2fd5d9f"},"type":"Full HD TV","brand":"Philips","price":52700,"size":"65 inches","quantity":72},{"id":{"$oid":"650eb619fc13ae6cf2fd5da0"},"type":"CRT","brand":"Panasonic","price":54365,"size":"55 inches","quantity":14}],"Laptops":[{"id":{"$oid":"650eb619fc13ae6cf2fd5da1"},"name":"Dell XPS 13","brand":"Dell","price":96543,"quantity":20,"size":"13 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5da2"},"name":"HP Spectre x360","brand":"HP","price":103409,"quantity":5,"size":"14 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5da3"},"name":"Lenovo ThinkPad X1 Carbon","brand":"Lenovo","price":79978,"quantity":9,"size":"17 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5da4"},"name":"Asus ZenBook Pro Duo","brand":"Asus","price":114158,"quantity":9,"size":"17 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5da5"},"name":"Apple MacBook Pro","brand":"Apple","price":112720,"quantity":1,"size":"15.6 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5da6"},"name":"Acer Predator Helios 300","brand":"Acer","price":94145,"quantity":16,"size":"14 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5da7"},"name":"Microsoft Surface Laptop 3","brand":"Microsoft","price":116851,"quantity":11,"size":"13.3 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5da8"},"name":"Razer Blade 15","brand":"Razer","price":99207,"quantity":1,"size":"16 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5da9"},"name":"Alienware Area-51m","brand":"Alienware Samsung","price":50094,"quantity":13,"size":"15 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5daa"},"name":"Samsung Galaxy Book Flex","brand":"Dell","price":72770,"quantity":0,"size":"10 inches"}],"Smartphones":[{"id":{"$oid":"650eb619fc13ae6cf2fd5dab"},"name":"Pixel 5","brand":"Samsung","price":82413,"quantity":15,"size":"6.2 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5dac"},"name":"iPhone 12","brand":"Apple","price":49154,"quantity":7,"size":"6.3 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5dad"},"name":"Galaxy S21","brand":"Huawei","price":12244,"quantity":19,"size":"5.7 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5dae"},"name":"OnePlus 9","brand":"Xiaomi","price":34311,"quantity":2,"size":"6 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5daf"},"name":"Xperia 1 III","brand":"Google","price":72535,"quantity":7,"size":"6.3 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5db0"},"name":"Mi 11","brand":"OnePlus","price":86799,"quantity":12,"size":"5.5 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5db1"},"name":"Mate 40 Pro","brand":"LG","price":94732,"quantity":3,"size":"5.6 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5db2"},"name":"LG Velvet","brand":"Sony","price":64113,"quantity":7,"size":"6.1 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5db3"},"name":"Nokia 8.3","brand":"Nokia","price":51647,"quantity":16,"size":"6.1 inches"},{"id":{"$oid":"650eb619fc13ae6cf2fd5db4"},"name":"Motorola Edge+","brand":"Motorola","price":46869,"quantity":6,"size":"5.9 inches"}],"Home Appliances":[{"id":{"$oid":"650eb619fc13ae6cf2fd5db5"},"name":"washing machine","brand":"Panasonic","size":"medium","price":85790,"quantity":71},{"id":{"$oid":"650eb619fc13ae6cf2fd5db6"},"name":"toaster","brand":"Haier","size":"large","price":57589,"quantity":72},{"id":{"$oid":"650eb619fc13ae6cf2fd5db7"},"name":"washing machine","brand":"Whirlpool","size":"compact","price":57146,"quantity":71},{"id":{"$oid":"650eb619fc13ae6cf2fd5db8"},"name":"refrigerator","brand":"Electrolux","size":"small","price":53410,"quantity":16},{"id":{"$oid":"650eb619fc13ae6cf2fd5db9"},"name":"toaster","brand":"Toshiba","size":"oversized","price":84942,"quantity":24},{"id":{"$oid":"650eb619fc13ae6cf2fd5dba"},"name":"toaster","brand":"Toshiba","size":"oversized","price":56669,"quantity":49},{"id":{"$oid":"650eb619fc13ae6cf2fd5dbb"},"name":"washing machine","brand":"Bosch","size":"standard","price":76482,"quantity":39},{"id":{"$oid":"650eb619fc13ae6cf2fd5dbc"},"name":"washing machine","brand":"Haier","size":"extra large","price":52435,"quantity":42},{"id":{"$oid":"650eb619fc13ae6cf2fd5dbd"},"name":"dishwasher","brand":"Bosch","size":"extra small","price":96861,"quantity":44},{"id":{"$oid":"650eb619fc13ae6cf2fd5dbe"},"name":"vacuum cleaner","brand":"Samsung","size":"standard","price":52912,"quantity":22}]}]}]
+[
+  {
+    "products": [
+      {
+        "categories": [
+          "Laptops",
+          "Home Appliances",
+          "Smartphones",
+          "TVs"
+        ],
+        "TVs": [
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d92"
+            },
+            "type": "HD TV",
+            "brand": "Hisense",
+            "price": 52052,
+            "size": "50 inches",
+            "quantity": 81
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d93"
+            },
+            "type": "Full HD TV",
+            "brand": "RCA",
+            "price": 53441,
+            "size": "32 inches",
+            "quantity": 48
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d94"
+            },
+            "type": "OLED",
+            "brand": "LG",
+            "price": 86798,
+            "size": "55 inches",
+            "quantity": 41
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d95"
+            },
+            "type": "4K TV",
+            "brand": "Toshiba",
+            "price": 20781,
+            "size": "50 inches",
+            "quantity": 14
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d96"
+            },
+            "type": "Curved TV",
+            "brand": "Hisense",
+            "price": 62306,
+            "size": "42 inches",
+            "quantity": 59
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d97"
+            },
+            "type": "4K TV",
+            "brand": "Panasonic",
+            "price": 30629,
+            "size": "65 inches",
+            "quantity": 66
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d98"
+            },
+            "type": "8K TV",
+            "brand": "Panasonic",
+            "price": 38044,
+            "size": "65 inches",
+            "quantity": 3
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d99"
+            },
+            "type": "QLED",
+            "brand": "Sceptre",
+            "price": 19413,
+            "size": "32 inches",
+            "quantity": 62
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d9a"
+            },
+            "type": "Curved TV",
+            "brand": "LG",
+            "price": 44159,
+            "size": "50 inches",
+            "quantity": 32
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d9b"
+            },
+            "type": "4K TV",
+            "brand": "LG",
+            "price": 47669,
+            "size": "32 inches",
+            "quantity": 99
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d9c"
+            },
+            "type": "CRT",
+            "brand": "Panasonic",
+            "price": 14908,
+            "size": "32 inches",
+            "quantity": 35
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d9d"
+            },
+            "type": "Smart TV",
+            "brand": "Samsung",
+            "price": 65235,
+            "size": "32 inches",
+            "quantity": 33
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d9e"
+            },
+            "type": "Full HD TV",
+            "brand": "Sceptre",
+            "price": 75811,
+            "size": "32 inches",
+            "quantity": 84
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5d9f"
+            },
+            "type": "Full HD TV",
+            "brand": "Philips",
+            "price": 52700,
+            "size": "65 inches",
+            "quantity": 72
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5da0"
+            },
+            "type": "CRT",
+            "brand": "Panasonic",
+            "price": 54365,
+            "size": "55 inches",
+            "quantity": 14
+          }
+        ],
+        "Laptops": [
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5da1"
+            },
+            "name": "Dell XPS 13",
+            "brand": "Dell",
+            "price": 96543,
+            "quantity": 20,
+            "size": "13 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5da2"
+            },
+            "name": "HP Spectre x360",
+            "brand": "HP",
+            "price": 103409,
+            "quantity": 5,
+            "size": "14 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5da3"
+            },
+            "name": "Lenovo ThinkPad X1 Carbon",
+            "brand": "Lenovo",
+            "price": 79978,
+            "quantity": 9,
+            "size": "17 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5da4"
+            },
+            "name": "Asus ZenBook Pro Duo",
+            "brand": "Asus",
+            "price": 114158,
+            "quantity": 9,
+            "size": "17 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5da5"
+            },
+            "name": "Apple MacBook Pro",
+            "brand": "Apple",
+            "price": 112720,
+            "quantity": 1,
+            "size": "15.6 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5da6"
+            },
+            "name": "Acer Predator Helios 300",
+            "brand": "Acer",
+            "price": 94145,
+            "quantity": 16,
+            "size": "14 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5da7"
+            },
+            "name": "Microsoft Surface Laptop 3",
+            "brand": "Microsoft",
+            "price": 116851,
+            "quantity": 11,
+            "size": "13.3 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5da8"
+            },
+            "name": "Razer Blade 15",
+            "brand": "Razer",
+            "price": 99207,
+            "quantity": 1,
+            "size": "16 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5da9"
+            },
+            "name": "Alienware Area-51m",
+            "brand": "Alienware Samsung",
+            "price": 50094,
+            "quantity": 13,
+            "size": "15 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5daa"
+            },
+            "name": "Samsung Galaxy Book Flex",
+            "brand": "Dell",
+            "price": 72770,
+            "quantity": 0,
+            "size": "10 inches"
+          }
+        ],
+        "Smartphones": [
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5dab"
+            },
+            "name": "Pixel 5",
+            "brand": "Samsung",
+            "price": 82413,
+            "quantity": 15,
+            "size": "6.2 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5dac"
+            },
+            "name": "iPhone 12",
+            "brand": "Apple",
+            "price": 49154,
+            "quantity": 7,
+            "size": "6.3 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5dad"
+            },
+            "name": "Galaxy S21",
+            "brand": "Huawei",
+            "price": 12244,
+            "quantity": 19,
+            "size": "5.7 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5dae"
+            },
+            "name": "OnePlus 9",
+            "brand": "Xiaomi",
+            "price": 34311,
+            "quantity": 2,
+            "size": "6 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5daf"
+            },
+            "name": "Xperia 1 III",
+            "brand": "Google",
+            "price": 72535,
+            "quantity": 7,
+            "size": "6.3 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5db0"
+            },
+            "name": "Mi 11",
+            "brand": "OnePlus",
+            "price": 86799,
+            "quantity": 12,
+            "size": "5.5 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5db1"
+            },
+            "name": "Mate 40 Pro",
+            "brand": "LG",
+            "price": 94732,
+            "quantity": 3,
+            "size": "5.6 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5db2"
+            },
+            "name": "LG Velvet",
+            "brand": "Sony",
+            "price": 64113,
+            "quantity": 7,
+            "size": "6.1 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5db3"
+            },
+            "name": "Nokia 8.3",
+            "brand": "Nokia",
+            "price": 51647,
+            "quantity": 16,
+            "size": "6.1 inches"
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5db4"
+            },
+            "name": "Motorola Edge+",
+            "brand": "Motorola",
+            "price": 46869,
+            "quantity": 6,
+            "size": "5.9 inches"
+          }
+        ],
+        "Home Appliances": [
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5db5"
+            },
+            "name": "washing machine",
+            "brand": "Panasonic",
+            "size": "medium",
+            "price": 85790,
+            "quantity": 71
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5db6"
+            },
+            "name": "toaster",
+            "brand": "Haier",
+            "size": "large",
+            "price": 57589,
+            "quantity": 72
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5db7"
+            },
+            "name": "washing machine",
+            "brand": "Whirlpool",
+            "size": "compact",
+            "price": 57146,
+            "quantity": 71
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5db8"
+            },
+            "name": "refrigerator",
+            "brand": "Electrolux",
+            "size": "small",
+            "price": 53410,
+            "quantity": 16
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5db9"
+            },
+            "name": "toaster",
+            "brand": "Toshiba",
+            "size": "oversized",
+            "price": 84942,
+            "quantity": 24
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5dba"
+            },
+            "name": "toaster",
+            "brand": "Toshiba",
+            "size": "oversized",
+            "price": 56669,
+            "quantity": 49
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5dbb"
+            },
+            "name": "washing machine",
+            "brand": "Bosch",
+            "size": "standard",
+            "price": 76482,
+            "quantity": 39
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5dbc"
+            },
+            "name": "washing machine",
+            "brand": "Haier",
+            "size": "extra large",
+            "price": 52435,
+            "quantity": 42
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5dbd"
+            },
+            "name": "dishwasher",
+            "brand": "Bosch",
+            "size": "extra small",
+            "price": 96861,
+            "quantity": 44
+          },
+          {
+            "id": {
+              "$oid": "650eb619fc13ae6cf2fd5dbe"
+            },
+            "name": "vacuum cleaner",
+            "brand": "Samsung",
+            "size": "standard",
+            "price": 52912,
+            "quantity": 22
+          }
+        ]
+      }
+    ]
+  }
+]
