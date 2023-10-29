@@ -54,7 +54,7 @@ def getservices(service_name):
         conn = sqlite3.connect('LocalServiceProviders/' + db[0])
 
         # get the service id from the service name
-        query = f"SELECT * FROM service WHERE name = ?;"
+        query = f"SELECT * FROM service WHERE {cols[6]} = ?;"
         cursor = conn.execute(query, (service_name,))
         data = cursor.fetchone()
         if (data == None):
@@ -78,7 +78,7 @@ def getservices(service_name):
 
         if len(data) > 0:
             if cost is not None:
-                query = f"SELECT * FROM service WHERE cost <= ? AND name = ?;"
+                query = f"SELECT * FROM service WHERE {cols[1]} <= ? AND {cols[6]} = ?;"
                 cursor = conn.execute(query, (cost, service_name))
                 data = cursor.fetchall()
 
@@ -88,7 +88,7 @@ def getservices(service_name):
                         "service_cost": data[0][2],
                     })
             else:
-                query = f"SELECT * FROM service WHERE name = ?;"
+                query = f"SELECT * FROM service WHERE {cols[6]} = ?;"
                 cursor = conn.execute(query, (service_name))
                 data = cursor.fetchall()
 
@@ -166,4 +166,3 @@ def haversine(lat1, lon1, lat2, lon2):
 
 if __name__ == '__main__':
     app.run()
-
