@@ -530,7 +530,7 @@
             ]
           }
         ],
-        "building_material": [
+        "building_materials": [
           {
             "sub_categories": [
               "tiles",

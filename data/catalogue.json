@@ -8,14 +8,49 @@
       "painter"
     ],
     "item_list": [
-      "Tables",
-      "Sofas",
-      "Chairs",
-      "electrical_supplies",
-      "building_material",
-      "safety_equipment",
-      "TVs",
-      "Home Appliances"
+      [
+        "Tables",
+        "IKEA",
+        "metal"
+      ],
+      [
+        "Sofas",
+        "LuxuryLoungers",
+        "leather"
+      ],
+      [
+        "Chairs",
+        "CozyHome",
+        "Ergonomic Chair"
+      ],
+      [
+        "electrical_supplies",
+        "wires",
+        "Acme Wires",
+        "copper wire"
+      ],
+      [
+        "building_materials",
+        "paint",
+        "Acme Paints",
+        "Crimson Red"
+      ],
+      [
+        "safety_equipment",
+        "gloves",
+        "SureGrip",
+        "Protective Gloves"
+      ],
+      [
+        "TVs",
+        "Vizio",
+        "OLED"
+      ],
+      [
+        "Home Appliances",
+        "Sony",
+        "air conditioner"
+      ]
     ]
   },
   {
@@ -29,14 +64,50 @@
       "plumber"
     ],
     "item_list": [
-      "Tables",
-      "Chairs",
-      "electrical_supplies",
-      "tools",
-      "building_material",
-      "safety_equipment",
-      "Home Appliances",
-      "Cabinets"
+      [
+        "Tables",
+        "IKEA",
+        "metal"
+      ],
+      [
+        "Chairs",
+        "CozyHome",
+        "Ergonomic Chair"
+      ],
+      [
+        "electrical_supplies",
+        "wires",
+        "Acme Wires",
+        "copper wire"
+      ],
+      [
+        "tools",
+        "power_tools",
+        "Bosch",
+        "Electric Drill"
+      ],
+      [
+        "building_materials",
+        "paint",
+        "Acme Paints",
+        "Crimson Red"
+      ],
+      [
+        "safety_equipment",
+        "gloves",
+        "SureGrip",
+        "Protective Gloves"
+      ],
+      [
+        "Home Appliances",
+        "Sony",
+        "air conditioner"
+      ],
+      [
+        "Cabinets",
+        "CabinetDesigns",
+        "Teak Cabinet"
+      ]
     ]
   },
   {
@@ -49,13 +120,50 @@
       "mason"
     ],
     "item_list": [
-      "electrical_supplies",
-      "tools",
-      "Beds",
-      "Chairsbuilding_material",
-      "safety_equipment",
-      "Home Appliances",
-      "Cabinets"
+      [
+        "electrical_supplies",
+        "wires",
+        "Acme Wires",
+        "copper wire"
+      ],
+      [
+        "tools",
+        "power_tools",
+        "Bosch",
+        "Electric Drill"
+      ],
+      [
+        "Beds",
+        "Casper",
+        "King Size Bed"
+      ],
+      [
+        "Chairs",
+        "CozyHome",
+        "Ergonomic Chair"
+      ],
+      [
+        "building_materials",
+        "paint",
+        "Acme Paints",
+        "Crimson Red"
+      ],
+      [
+        "safety_equipment",
+        "gloves",
+        "SureGrip",
+        "Protective Gloves"
+      ],
+      [
+        "Home Appliances",
+        "Sony",
+        "air conditioner"
+      ],
+      [
+        "Cabinets",
+        "CabinetDesigns",
+        "Teak Cabinet"
+      ]
     ]
   },
   {
@@ -69,12 +177,45 @@
       "plumber"
     ],
     "item_list": [
-      "electrical_supplies",
-      "tools",
-      "building_material",
-      "safety_equipment",
-      "TVsHome Appliances",
-      "Cabinets"
+      [
+        "electrical_supplies",
+        "wires",
+        "Acme Wires",
+        "copper wire"
+      ],
+      [
+        "tools",
+        "power_tools",
+        "Bosch",
+        "Electric Drill"
+      ],
+      [
+        "building_materials",
+        "paint",
+        "Acme Paints",
+        "Crimson Red"
+      ],
+      [
+        "safety_equipment",
+        "gloves",
+        "SureGrip",
+        "Protective Gloves"
+      ],
+      [
+        "TVs",
+        "Vizio",
+        "OLED"
+      ],
+      [
+        "Home Appliances",
+        "Sony",
+        "air conditioner"
+      ],
+      [
+        "Cabinets",
+        "CabinetDesigns",
+        "Teak Cabinet"
+      ]
     ]
   },
   {
@@ -87,16 +228,65 @@
       "mason"
     ],
     "item_list": [
-      "electrical_supplies",
-      "tools",
-      "building_material",
-      "safety_equipment",
-      "TVsHome Appliances",
-      "Cabinets",
-      "Tables",
-      "Chairs",
-      "Laptops",
-      "Smartphones"
+      [
+        "electrical_supplies",
+        "wires",
+        "Acme Wires",
+        "copper wire"
+      ],
+      [
+        "tools",
+        "power_tools",
+        "Bosch",
+        "Electric Drill"
+      ],
+      [
+        "building_materials",
+        "paint",
+        "Acme Paints",
+        "Crimson Red"
+      ],
+      [
+        "safety_equipment",
+        "gloves",
+        "SureGrip",
+        "Protective Gloves"
+      ],
+      [
+        "TVs",
+        "Vizio",
+        "OLED"
+      ],
+      [
+        "Home Appliances",
+        "Sony",
+        "air conditioner"
+      ],
+      [
+        "Cabinets",
+        "CabinetDesigns",
+        "Teak Cabinet"
+      ],
+      [
+        "Tables",
+        "IKEA",
+        "metal"
+      ],
+      [
+        "Chairs",
+        "CozyHome",
+        "Ergonomic Chair"
+      ],
+      [
+        "Laptops",
+        "Dell",
+        "Dell XPS 13"
+      ],
+      [
+        "Smartphones",
+        "Apple",
+        "iPhone 12"
+      ]
     ]
   }
 ]

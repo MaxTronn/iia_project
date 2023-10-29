@@ -21,7 +21,7 @@ for _ in range(500):
     service_id = random.randint(1,16)
     charge = random.randint(10, 24) * 50
     workex = random.randint(0,10)
-    df = df.append({'id' : id,'name': full_name, 'service_id': service_id, 'charge': charge, 'workex': workex}, ignore_index=True)
+    df = df.append({'id' : id,'name': full_name, 'service_id': service_id, 'charge':  charge, 'workex': workex}, ignore_index=True)
     id+=1
 
 df['phone_number'] = df.apply(lambda _: '+91' + ''.join(random.choices('0123456789', k=10)), axis=1)
