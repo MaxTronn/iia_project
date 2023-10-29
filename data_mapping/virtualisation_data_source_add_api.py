@@ -1,3 +1,4 @@
+
 import virtualisation_data_mapping as vdm
 from flask import Flask, jsonify, request
 import sqlite3
@@ -7,7 +8,6 @@ import os
 app = Flask(__name__)
 
 
-@app.route('/map-schema/')
 def map_schema():
     synonyms = vdm.synonyms
 
@@ -59,6 +59,33 @@ def map_schema():
     connection.close()
 
     return "Schema mapped successfully"
+
+
+@app.route('/add-service-db', methods=['POST'])
+def upload_file():
+
+    file = request.files['file']
+    name = request.form['name']
+    email = request.form['email']
+    phone = request.form['phone']
+    lat = request.form['lat']
+    lng = request.form['lng']
+    password = request.form['password']
+    store_type = request.form['store_type']
+
+    file.save(os.path.join(vdm.folder_path, file.filename))
+
+    conn = sqlite3.connect('../Service_provider_global/service_providers.db')
+    query = "INSERT INTO Service_provers_table (store_name, email, phone, latitude, longitude, password, type, database_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+    cursor = conn.cursor()
+    cursor.execute(query, (name, email, phone, float(lat), float(lng),
+                   password, store_type, file.filename))
+    conn.commit()
+    conn.close()
+
+    map_schema()
+
+    return 'File uploaded successfully'
 
 
 if __name__ == '__main__':
