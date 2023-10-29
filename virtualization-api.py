@@ -17,6 +17,7 @@ def getservices(service_name):
     work_ex = request.args.get('work_ex')
     lat = request.args.get('lat')
     lon = request.args.get('lon')
+    max_dist = request.args.get('max_dist')
 
     # Convert cost, work_ex, lat, and lon to integers or floats as needed
     if cost is not None:
@@ -27,6 +28,10 @@ def getservices(service_name):
         lat = float(lat)
     if lon is not None:
         lon = float(lon)
+    if max_dist is not None:
+        max_dist = float(max_dist)
+    else:
+        max_dist = 15.0
 
     # Initialize an empty list to store available service providers
     filtered_type_cost_service_providers = []
@@ -117,7 +122,7 @@ def getservices(service_name):
             provider_lon = float(data[8])
             provider_distance = haversine(lat, lon, provider_lat, provider_lon)
 
-            if provider_distance <= 50.0:  # Filter providers within 10km
+            if provider_distance <= max_dist:  # Filter providers within 10km
                 service_providers.append({
                     "name": data[2],
                     "phone": data[5],
