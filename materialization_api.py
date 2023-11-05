@@ -157,5 +157,58 @@ def get_furniture_item():
     return shop_details
 
 
+@app.route('/items/general-hardware')
+def get_general_hardware_item():
+    item_category = request.args.get('item_category')
+    item_type = request.args.get('item_type')
+    item_size = request.args.get('item_size')
+    item_name = request.args.get('item_name')
+    item_brand = request.args.get('item_brand')
+    item_sub_category = request.args.get('item_sub_category')
+    item_max_price = request.args.get('item_max_price')
+    lat = request.args.get('lat')
+    lon = request.args.get('lon')
+    max_dist = request.args.get('max_dist')
+
+    search_attributes = {}
+
+    if item_category is not None:
+        search_attributes[item_category] = '1.0'
+    if item_sub_category is not None:
+        search_attributes[item_sub_category] = '1.0'
+    if item_type is not None:
+        search_attributes['item_type'] = item_type
+    if item_size is not None:
+        search_attributes['item_size'] = item_size
+    if item_name is not None:
+        search_attributes['item_name'] = item_name
+    if item_max_price is not None:
+        search_attributes['item_max_price'] = item_max_price
+    if item_brand is not None:
+        search_attributes['item_brand'] = item_brand
+
+    base_query = 'SELECT * FROM general_hardware_items WHERE '
+    query = 'SELECT * FROM general_hardware_items WHERE '
+
+    for key, value in search_attributes.items():
+        query += key + " =?" + " AND "
+
+    if query == base_query:
+        return "No search parameters provided"
+
+    query = query[:-5] + ";"
+
+    print(query)
+
+    # query the materialized view and get the db_names of the items
+    # using db names, query global db to get store details
+    conn = sqlite3.connect(
+        './materialised_items_database/materialised_items.db')
+    cursor = conn.execute(query, tuple(search_attributes.values()))
+    result = cursor.fetchall()
+
+    return result
+
+
 if __name__ == '__main__':
-    app.run(port = 5001)
+    app.run(port=5001)
