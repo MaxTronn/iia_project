@@ -207,6 +207,25 @@ def get_general_hardware_item():
     cursor = conn.execute(query, tuple(search_attributes.values()))
     result = cursor.fetchall()
 
+    shop_details = []
+    # take the store name, store id lat and long
+    for item in result:
+
+        shop_details.append({
+            "store_name": item[1],
+            "store_id": item[2],
+            "store_lat": item[3],
+            "store_long": item[4],
+            "item_category": item_category,
+            "item_sub_category": item_sub_category,
+            "item_name": item[5],
+            "item_id": item[9],
+            "item_price": item[7],
+            "item_brand": item[6]
+        })
+
+    return shop_details
+
     return result
 
 
