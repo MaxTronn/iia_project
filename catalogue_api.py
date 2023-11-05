@@ -66,15 +66,37 @@ def get_electrical_item(id):
         if(response.status_code == 200):
             electricalData.append(response.json())
 
+    furnitureURL = "http://127.0.0.1:5001/items/furniture"
+    furnitureData = []
+    for itemDict in furnitureItems:
+        response = requests.get(furnitureURL, itemDict)
+        if(response.status_code == 200):
+            furnitureData.append(response.json())
+
+    generalHardwareURL = "http://127.0.0.1:5001/items/general-hardware"
+    generalHardwareData = []
+    for itemDict in generalItems:
+        response = requests.get(generalHardwareURL, itemDict)
+        if(response.status_code == 200):
+            generalHardwareData.append(response.json())
+
+    services = []
 
     for service in services_list:
         serviceURL = "http://127.0.0.1:5002/get-services/"
         serviceURL = serviceURL + service
         response = requests.get(serviceURL)
         if(response.status_code == 200):
-            electricalData.append(response.json())
+            services.append(response.json())
 
-    return electricalData
+    responseObject = {
+            "electrical": electricalData,
+            "furniture": furnitureData,
+            "generalHardware": generalHardwareData,
+            "services": services
+        }
+
+    return responseObject
 
 
 if __name__ == '__main__':
