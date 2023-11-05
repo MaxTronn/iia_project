@@ -170,4 +170,4 @@ def haversine(lat1, lon1, lat2, lon2):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port = 5002)
