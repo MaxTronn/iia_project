@@ -11,12 +11,6 @@ db_file = "data_mapping/data_mapping.db"
 conn = sqlite3.connect(db_file)
 
 
-# Add '.$oid' to each item_id
-query = "UPDATE furniture_mapping SET item_id = (item_id || '.$oid');"
-cursor = conn.cursor()
-cursor.execute(query)
-conn.commit()
-
 
 query = 'SELECT * FROM furniture_mapping'
 cursor = conn.cursor()
@@ -31,6 +25,10 @@ sql_column_names = ["database_name", "categories", "products", "Tables", "Cabine
 items_df = pd.DataFrame()
 
 for tup in rows:
+
+    id_str = tup[8] + ".$oid"
+    tup_1 = tup[:8] + (id_str,) + tup[9:]
+    tup = tup_1
 
     # KEY = Actual Column name, VALUE = current column name
     column_mapping = {tup[i]: sql_column_names[i] for i in range(len(tup))}

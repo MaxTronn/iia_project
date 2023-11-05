@@ -1,4 +1,3 @@
-# TODO : hard code id to $oid
 # Column name is the same as column name of mapping db
 # subcategory needs to be null if it is of not that subcategory
 # 3 tables will be present in the db
@@ -11,11 +10,11 @@ import sqlite3
 db_file = "data_mapping/data_mapping.db"
 conn = sqlite3.connect(db_file)
 
-# Add '.$oid' to each item_id
-query = "UPDATE furniture_mapping SET item_id = (item_id || '.$oid');"
-cursor = conn.cursor()
-cursor.execute(query)
-conn.commit()
+# # Add '.$oid' to each item_id
+# query = "UPDATE furniture_mapping SET item_id = (item_id || '.$oid');"
+# cursor = conn.cursor()
+# cursor.execute(query)
+# conn.commit()
 
 query = 'SELECT * FROM electrical_mapping'
 cursor = conn.cursor()
@@ -29,6 +28,10 @@ sql_column_names = ["database_name", "categories", "products", "TVs", "Laptops",
 items_df = pd.DataFrame()
 
 for tup in rows:
+
+    id_str = tup[7] + ".$oid"
+    tup_1 = tup[:7] + (id_str,) + tup[8:]
+    tup = tup_1
 
     # KEY = Actual Column name, VALUE = current column name
     column_mapping = {tup[i]: sql_column_names[i] for i in range(len(tup))}
@@ -89,7 +92,6 @@ rows = cursor.fetchall()
 for tup in rows:
     shops_df = shops_df.append(pd.Series([tup[1], tup[0], tup[3], tup[4], tup[5]], index=shops_df.columns), ignore_index=True)
 
-print(shops_df)
 
 
 
@@ -97,7 +99,7 @@ print(shops_df)
 merged_df = pd.merge(shops_df, items_df, on='db_name', how='inner')
 merged_df = merged_df.drop(columns=["db_name"])
 merged_df.insert(0, 'id', range(1, len(merged_df) + 1))
-# print(merged_df)
+
 
 
 
