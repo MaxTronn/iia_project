@@ -94,7 +94,7 @@ def getservices(service_name):
                     })
             else:
                 query = f"SELECT * FROM service WHERE {cols[6]} = ?;"
-                cursor = conn.execute(query, (service_name))
+                cursor = conn.execute(query, (service_name,))
                 data = cursor.fetchall()
 
                 if len(data) > 0:
@@ -170,4 +170,4 @@ def haversine(lat1, lon1, lat2, lon2):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port = 5002)
