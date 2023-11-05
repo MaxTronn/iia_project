@@ -1,4 +1,3 @@
-# TODO : hard code id to $oid
 # Column name is the same as column name of mapping db
 # subcategory needs to be null if it is of not that subcategory
 # 3 tables will be present in the db
@@ -11,20 +10,23 @@ import sqlite3
 db_file = "data_mapping/data_mapping.db"
 conn = sqlite3.connect(db_file)
 
+
 # Add '.$oid' to each item_id
 query = "UPDATE furniture_mapping SET item_id = (item_id || '.$oid');"
 cursor = conn.cursor()
 cursor.execute(query)
 conn.commit()
 
-query = 'SELECT * FROM electrical_mapping'
+
+query = 'SELECT * FROM furniture_mapping'
 cursor = conn.cursor()
 cursor.execute(query)
 rows = cursor.fetchall()
 
-sql_column_names = ["database_name", "categories", "products", "TVs", "Laptops", "Home_Appliances",
-                    "Smartphones", "item_id", "item_type", "item_brand", "item_price", "item_size",
-                    "item_quantity", "item_name"]
+sql_column_names = ["database_name", "categories", "products", "Tables", "Cabinets", "Beds",
+                    "Sofas", "Chairs", "item_id", "item_type", "item_brand", "item_price", "item_size",
+                    "item_quantity", "item_shape"]
+
 
 items_df = pd.DataFrame()
 
@@ -35,44 +37,57 @@ for tup in rows:
 
     # Opening JSON file
     json_file_name = tup[0]
-    f = open(f'shop-items/electrical/{json_file_name}.json')
+    f = open(f'shop-items/furniture/{json_file_name}.json')
     json_data = json.load(f)
-    category_1 = tup[3]
-    category_2 = tup[4]
-    category_3 = tup[5]
-    category_4 = tup[6]
+    Tables = tup[3]
+    Cabinets = tup[4]
+    Beds = tup[5]
+    Sofas = tup[6]
+    Chairs = tup[7]
 
     for product in json_data:
         for category, items in product.items():
-            df_1 = pd.json_normalize(items[0][category_1])
-            df_1[category_1] = 1
-            df_1[category_2] = 0
-            df_1[category_3] = 0
-            df_1[category_4] = 0
+            df_1 = pd.json_normalize(items[0][Tables])
+            df_1[Tables] = 1
+            df_1[Cabinets] = 0
+            df_1[Beds] = 0
+            df_1[Sofas] = 0
+            df_1[Chairs] = 0
 
-            df_2 = pd.json_normalize(items[0][category_2])
-            df_2[category_1] = 0
-            df_2[category_2] = 1
-            df_2[category_3] = 0
-            df_2[category_4] = 0
+            df_2 = pd.json_normalize(items[0][Cabinets])
+            df_2[Tables] = 0
+            df_2[Cabinets] = 1
+            df_2[Beds] = 0
+            df_2[Sofas] = 0
+            df_2[Chairs] = 0
 
-            df_3 = pd.json_normalize(items[0][category_3])
-            df_3[category_1] = 0
-            df_3[category_2] = 0
-            df_3[category_3] = 1
-            df_3[category_4] = 0
+            df_3 = pd.json_normalize(items[0][Beds])
+            df_3[Tables] = 0
+            df_3[Cabinets] = 0
+            df_3[Beds] = 1
+            df_3[Sofas] = 0
+            df_3[Chairs] = 0
 
-            df_4 = pd.json_normalize(items[0][category_4])
-            df_4[category_1] = 0
-            df_4[category_2] = 0
-            df_4[category_3] = 0
-            df_4[category_4] = 1
+            df_4 = pd.json_normalize(items[0][Sofas])
+            df_4[Tables] = 0
+            df_4[Cabinets] = 0
+            df_4[Beds] = 0
+            df_4[Sofas] = 1
+            df_4[Chairs] = 0
 
-            df = pd.concat([df_1, df_2, df_3, df_4], ignore_index=True)
+            df_5 = pd.json_normalize(items[0][Chairs])
+            df_5[Tables] = 0
+            df_5[Cabinets] = 0
+            df_5[Beds] = 0
+            df_5[Sofas] = 0
+            df_5[Chairs] = 1
+
+            df = pd.concat([df_1, df_2, df_3, df_4, df_5], ignore_index=True)
             df.rename(columns=column_mapping, inplace=True)
             df["db_name"] = tup[0]
 
             items_df = pd.concat([df, items_df], ignore_index=True)
+
 
 
 
@@ -89,8 +104,6 @@ rows = cursor.fetchall()
 for tup in rows:
     shops_df = shops_df.append(pd.Series([tup[1], tup[0], tup[3], tup[4], tup[5]], index=shops_df.columns), ignore_index=True)
 
-print(shops_df)
-
 
 
 # Merge Items df and shops df
@@ -104,6 +117,6 @@ merged_df.insert(0, 'id', range(1, len(merged_df) + 1))
 # Save the Dataframe as .db file
 db_file = 'materialised_items_database/materialised_items.db'
 conn = sqlite3.connect(db_file)
-merged_df.to_sql('electrical_items', conn, if_exists='replace', index=False)
+merged_df.to_sql('furniture_items', conn, if_exists='replace', index=False)
 conn.commit()
 conn.close()
