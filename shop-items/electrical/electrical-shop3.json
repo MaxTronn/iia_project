@@ -21,6 +21,16 @@
           },
           {
             "id": {
+              "$oid": "650eb619fc13ae6cf2fd5dyt"
+            },
+            "type": "HD TV",
+            "brand": "IIA_TV",
+            "price": 52052,
+            "size": "50 inches",
+            "quantity": 81
+          },
+          {
+            "id": {
               "$oid": "650eb619fc13ae6cf2fd5d93"
             },
             "type": "Full HD TV",
