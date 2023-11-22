@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 # SQLite database file
 DATABASE = "BookingsAndFeedback/BookingsAndFeedback.db"
+USER_DATABASE = "data/users.db"
 
 # Function to establish a database connection
 def get_db_connection():
@@ -12,6 +13,43 @@ def get_db_connection():
     conn.row_factory = sqlite3.Row
     return conn
 
+# Functions to establish a database connection to user database
+def get_user_db_connection():
+    conn = sqlite3.connect(USER_DATABASE)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+# get user details given a user id
+def get_user_details(user_id):
+    conn = get_user_db_connection()
+    cursor = conn.cursor()
+
+    # Fetch user details by ID
+    cursor.execute('SELECT name, email, phone_number, latitude, longitude FROM users_table WHERE id=?', (user_id,))
+    user_details = cursor.fetchone()
+
+    conn.close()
+
+    if user_details:
+        return dict(user_details)
+    else:
+        print("Error in get_user_details for user_id = ", user_id)
+        return {'error': 'User not found'}
+
+
+def merge_user_details(bookings_list):
+    for booking in bookings_list:
+        user_id = booking['user_id']
+        if user_id is not None:
+            user_details = get_user_details(user_id)
+
+            # Merge user details into the booking dictionary
+            if user_details and "error" not in user_details:
+                booking.update(user_details)
+            else:
+                print("error while fetching user_id = ", user_id)
+
+    return bookings_list
 
 
 # Endpoint to fetch feedback by booking ID
@@ -83,6 +121,14 @@ def store_feedback():
 
 
 
+# JSON PAYLOAD FOR PENDING BOOKING
+# {
+#   "user_id": 123,
+#   "service_provider_id": 456,
+#   "service_name": "carpenter"
+# }
+
+
 # Endpoint for pending booking
 @app.route('/pending_booking', methods=['POST'])
 def pending_booking():
@@ -102,8 +148,8 @@ def pending_booking():
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    cursor.execute('INSERT INTO booking (b_id, user_id, service_provider_id, status) VALUES (?, ?, ?, ?)',
-                   (new_booking_id, data['user_id'], data['service_provider_id'], 'pending'))
+    cursor.execute('INSERT INTO booking (b_id, user_id, service_provider_id, service_name ,status) VALUES (?, ?, ?, ?, ?)',
+                   (new_booking_id, data['user_id'], data['service_provider_id'], data['service_name'],'pending'))
 
     conn.commit()
     conn.close()
@@ -150,9 +196,10 @@ def fetch_pending_booking(service_provider_id):
     pending_bookings = cursor.fetchall()
 
     conn.close()
-
     if pending_bookings:
-        return jsonify([dict(booking) for booking in pending_bookings])
+        pending_bookings = [dict(booking) for booking in pending_bookings]
+        pending_bookings = merge_user_details(pending_bookings)
+        return jsonify(pending_bookings)
     else:
         return jsonify({'result': 'No pending bookings found for the given service provider'}), 404
 
@@ -166,11 +213,11 @@ def fetch_booking_details(booking_id):
     # Fetch all details related to the booking ID from the booking table
     cursor.execute('SELECT * FROM booking WHERE b_id=?', (booking_id,))
     booking_details = cursor.fetchone()
-
     conn.close()
-
     if booking_details:
-        return jsonify(dict(booking_details))
+        booking_details =  [dict(booking_details)]
+        booking_details = merge_user_details(booking_details)
+        return jsonify(booking_details)
     else:
         return jsonify({'error': 'Booking details not found for the given booking ID'}), 404
 
@@ -189,9 +236,11 @@ def fetch_all_bookings(service_provider_id):
     conn.close()
 
     if booking_details:
-        return jsonify([dict(booking) for booking in booking_details])
+        booking_details = [dict(booking) for booking in booking_details]
+        booking_details = merge_user_details(booking_details)
+        return jsonify(booking_details)
     else:
-        return jsonify({'error': 'Booking details not found for the given service provider ID'}), 404
+        return jsonify({'error': 'Booking details not found for the given service provider ID'})
 
 if __name__ == '__main__':
     app.run(debug=True)
