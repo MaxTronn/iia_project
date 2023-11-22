@@ -47,9 +47,12 @@ def user_login():
     conn.close()
 
     if user:
-        return jsonify(dict(user))
+        user = dict(user)
+        user.update({'result':True})
+        return jsonify(user)
     else:
-        return jsonify({'error': 'User not found'}), 404
+        return jsonify({'result':False})
+
 
 
 
@@ -147,20 +150,24 @@ def service_provider_login():
 def idpt_service_provider_login():
     data = request.json
     email = data.get('email')
-    password = data.get('password')
+
 
     conn = get_service_provider_db_connection()
     cursor = conn.cursor()
 
     # Check if the shopkeeper exists with the given email and password
     cursor.execute('SELECT * FROM service_provers_table WHERE email=? '
-                   'AND password=? AND database_name="individual"', (email, password))
+                   'AND database_name="individual"', (email, ))
     shopkeeper = cursor.fetchone()
-
+    shopkeeper = dict(shopkeeper)
+    
     conn.close()
 
-    # Return True if the shopkeeper exists, else return False
-    return jsonify({'result': True if shopkeeper else False})
+    if shopkeeper:
+        shopkeeper.update({'result':True})
+        return jsonify(dict(shopkeeper))
+    else:
+        return jsonify({'result':False})
 
 
 
