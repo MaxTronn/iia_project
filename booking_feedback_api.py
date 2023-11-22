@@ -21,7 +21,7 @@ def get_db_connection():
 def get_user_db_connection():
     conn = sqlite3.connect(USER_DATABASE)
     conn.row_factory = sqlite3.Row
-    return
+    return conn
 
 def get_service_provider_db_connection():
     conn = sqlite3.connect(SERVICE_PROVIDER_DATABASE)
