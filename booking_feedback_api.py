@@ -63,6 +63,40 @@ def merge_user_details(bookings_list):
 
 
 
+# get service provider details given a service provider id
+def get_service_provider_details(service_provider_id):
+    conn = get_service_provider_db_connection()
+    cursor = conn.cursor()
+
+    # Fetch user details by ID
+    cursor.execute('SELECT store_name, email, phone, latitude, longitude '
+                   'FROM service_provers_table WHERE id=?', (service_provider_id,))
+    service_provider_details = cursor.fetchone()
+
+    conn.close()
+
+    if service_provider_details:
+        return dict(service_provider_details)
+    else:
+        print("Error in service_provider_details for service_provider_id = ", service_provider_details)
+        return {'error': 'Service Provider not found'}
+
+
+def merge_service_provider_details(bookings_list):
+    for booking in bookings_list:
+        service_provider_id = booking['service_provider_id']
+        if service_provider_id is not None:
+            service_provider_details = get_service_provider_details(service_provider_id)
+
+            # Merge user details into the booking dictionary
+            if service_provider_details and "error" not in service_provider_details:
+                booking.update(service_provider_details)
+            else:
+                print("error while fetching service_provider_id =", service_provider_id)
+
+    return bookings_list
+
+
 # Endpoint to fetch feedback by booking ID
 @app.route('/fetch_feedback/<int:booking_id>', methods=['GET'])
 def fetch_feedback(booking_id):
@@ -88,6 +122,8 @@ def fetch_feedback(booking_id):
     conn.close()
 
     return jsonify(feedback_details)
+
+
 
 # JSON PAYLOAD for FETCHING SERVICE PROVIDER ID
 # {
@@ -193,6 +229,7 @@ def pending_booking():
 
     return jsonify({'result': 'Pending booking stored successfully'})
 
+
 # Endpoint to accept a booking
 @app.route('/accept_booking/<int:booking_id>', methods=['GET'])
 def accept_booking(booking_id):
@@ -207,6 +244,7 @@ def accept_booking(booking_id):
 
     return jsonify({'result': 'Booking accepted successfully'})
 
+
 # Endpoint to reject a booking
 @app.route('/reject_booking/<int:booking_id>', methods=['GET'])
 def reject_booking(booking_id):
@@ -220,6 +258,7 @@ def reject_booking(booking_id):
     conn.close()
 
     return jsonify({'result': 'Booking rejected successfully'})
+
 
 # Endpoint to fetch pending bookings for a service provider
 @app.route('/fetch_pending_booking/<int:service_provider_id>', methods=['GET'])
@@ -278,6 +317,28 @@ def fetch_all_bookings(service_provider_id):
         return jsonify(booking_details)
     else:
         return jsonify({'error': 'Booking details not found for the given service provider ID'})
+
+
+# Endpoint to fetch all bookings of a user
+@app.route('/fetch_all_bookings_by_user/<int:user_id>', methods=['GET'])
+def fetch_all_bookings_by_user(user_id):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    # Fetch all details related to the booking ID from the booking table
+    cursor.execute('SELECT * FROM booking WHERE user_id=?'
+                   'ORDER BY b_id DESC', (user_id,))
+    booking_details = cursor.fetchall()
+
+    conn.close()
+
+    if booking_details:
+        booking_details = [dict(booking) for booking in booking_details]
+        booking_details = merge_service_provider_details(booking_details)
+        return jsonify(booking_details)
+    else:
+        return jsonify({'error': 'Booking details not found for the given user ID'})
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
