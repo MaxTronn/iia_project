@@ -2,8 +2,10 @@ from flask import Flask, jsonify, request
 import sqlite3
 import json
 import math
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/')
@@ -19,6 +21,8 @@ def getservices(service_name):
     lon = request.args.get('lon')
     max_dist = request.args.get('max_dist')
 
+    print(cost, work_ex, lat, lon, max_dist)
+
     # Convert cost, work_ex, lat, and lon to integers or floats as needed
     if cost is not None:
         cost = int(cost)
@@ -31,7 +35,7 @@ def getservices(service_name):
     if max_dist is not None:
         max_dist = float(max_dist)
     else:
-        max_dist = 15.0
+        max_dist = 100
 
     # Initialize an empty list to store available service providers
     filtered_type_cost_service_providers = []
@@ -40,14 +44,15 @@ def getservices(service_name):
     conn = sqlite3.connect('Service_provider_global/service_providers.db')
 
     # Fetch database names based on service name and 'general'
-    query = 'SELECT database_name FROM service_provers_table WHERE type = ? OR type = ?;'
+    query = 'SELECT id, database_name FROM service_provers_table WHERE type = ? OR type = ?;'
     cursor = conn.execute(query, (service_name, 'general'))
-    dbs = cursor.fetchall()
+    service_providers_details = cursor.fetchall()
 
-    print(dbs)
+    for db in service_providers_details:
 
-    for db in dbs:
-        db_name = db[0][:-3]
+        print(db)
+
+        db_name = db[1][:-3]
 
         # Connect to the data_mapping database and retrieve columns
         conn = sqlite3.connect('data_mapping/data_mapping.db')
@@ -56,7 +61,7 @@ def getservices(service_name):
         cols = cursor.fetchone()
 
         # Connect to the LocalServiceProviders database for each provider
-        conn = sqlite3.connect('LocalServiceProviders/' + db[0])
+        conn = sqlite3.connect('LocalServiceProviders/' + db[1])
 
         # get the service id from the service name
         query = f"SELECT * FROM service WHERE {cols[6]} = ?;"
@@ -64,14 +69,12 @@ def getservices(service_name):
         data = cursor.fetchone()
         if (data == None):
             continue
-        print(data)
         service_id = data[0]
 
         if len(data) == 0:
             continue
 
         if work_ex is not None and cols[3] is not None:
-            print('work_ex is not None', work_ex, db_name)
             query = f"SELECT * FROM service_men WHERE ({cols[2]} = 'Available' OR {cols[2]} = 1 OR {cols[2]} = 'available' OR {cols[2]} = 'yes') AND {cols[4]} = ? AND {cols[3]} >= ?;"
             cursor = conn.execute(query, (service_id, work_ex,))
             data = cursor.fetchall()
@@ -90,7 +93,7 @@ def getservices(service_name):
                 if len(data) > 0:
                     filtered_type_cost_service_providers.append({
                         "db": db,
-                        "service_cost": data[0][2],
+                        "service_cost": data[0][2]
                     })
             else:
                 query = f"SELECT * FROM service WHERE {cols[6]} = ?;"
@@ -107,38 +110,44 @@ def getservices(service_name):
 
     conn = sqlite3.connect('Service_provider_global/service_providers.db')
     for entry in filtered_type_cost_service_providers:
-        print(entry)
 
         query = 'SELECT * FROM service_provers_table WHERE database_name = ?;'
-        cursor = conn.execute(query, (entry['db'][0],))
+        cursor = conn.execute(query, (entry['db'][1],))
         data = cursor.fetchone()
+
+        provider_lat = float(data[7])
+        provider_lon = float(data[8])
 
         if lat is not None and lon is not None:
             # check distance between lat, lon and service provider lat, lon
             # if distance is less than 10km, add to service_providers
 
             # Check the distance between lat, lon and service provider lat, lon
-            provider_lat = float(data[7])
-            provider_lon = float(data[8])
+
             provider_distance = haversine(lat, lon, provider_lat, provider_lon)
+
+            print(provider_lat, provider_lon, provider_distance)
 
             if provider_distance <= max_dist:  # Filter providers within 10km
                 service_providers.append({
+                    "id": entry['db'][0],
                     "name": data[2],
                     "phone": data[5],
                     "email": data[4],
-                    "lat": provider_lat,
-                    "long": provider_lon,
+                    "distance": provider_distance,
                     "service_cost": entry['service_cost'],
+                    "lat": provider_lat,
+                    "lon": provider_lon
                 })
         else:
             service_providers.append({
+                "id": entry['db'][0],
                 "name": data[2],
                 "phone": data[5],
                 "email": data[4],
-                "lat": data[7],
-                "long": data[8],
                 "service_cost": entry['service_cost'],
+                "lat": provider_lat,
+                "lon": provider_lon
             })
 
     return jsonify(service_providers)
@@ -170,4 +179,4 @@ def haversine(lat1, lon1, lat2, lon2):
 
 
 if __name__ == '__main__':
-    app.run(port = 5002)
+    app.run(port=5002)
