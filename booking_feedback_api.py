@@ -9,6 +9,7 @@ CORS(app)
 # SQLite database file
 DATABASE = "BookingsAndFeedback/BookingsAndFeedback.db"
 USER_DATABASE = "data/users.db"
+SERVICE_PROVIDER_DATABASE = "Service_provider_global/service_providers.db"
 
 # Function to establish a database connection
 def get_db_connection():
@@ -20,7 +21,13 @@ def get_db_connection():
 def get_user_db_connection():
     conn = sqlite3.connect(USER_DATABASE)
     conn.row_factory = sqlite3.Row
+    return
+
+def get_service_provider_db_connection():
+    conn = sqlite3.connect(SERVICE_PROVIDER_DATABASE)
+    conn.row_factory = sqlite3.Row
     return conn
+
 
 # get user details given a user id
 def get_user_details(user_id):
@@ -55,6 +62,7 @@ def merge_user_details(bookings_list):
     return bookings_list
 
 
+
 # Endpoint to fetch feedback by booking ID
 @app.route('/fetch_feedback/<int:booking_id>', methods=['GET'])
 def fetch_feedback(booking_id):
@@ -81,6 +89,32 @@ def fetch_feedback(booking_id):
 
     return jsonify(feedback_details)
 
+# JSON PAYLOAD for FETCHING SERVICE PROVIDER ID
+# {
+#   "email": "delcoat1@comsenz.com",
+#   "password": "eU9(<cZ=vL0w""q0"
+# }
+
+
+# Given email, password fetch service_provider_id
+@app.route('/fetch_service_provider_id', methods=['POST'])
+def fetch_service_provider_id():
+    data = request.json
+    email = data.get('email')
+
+    conn = get_service_provider_db_connection()
+    cursor = conn.cursor()
+
+    # Check if the shopkeeper exists with the given email and password
+    cursor.execute('SELECT id FROM service_provers_table WHERE email=?', (email,))
+    shopkeeper = cursor.fetchone()
+
+    conn.close()
+
+    if shopkeeper:
+        return jsonify(dict(shopkeeper))
+    else:
+        return jsonify({"error" : "error in fetch_service_provider_id function"})
 
 
 
