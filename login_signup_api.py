@@ -117,8 +117,7 @@ def get_user_details(user_id):
 
 # json payload for service provider login
 # {
-#   "email": "user@example.com",
-#   "password": "password123"
+#   "email": "user@example.com"
 # }
 
 
@@ -128,13 +127,12 @@ def get_user_details(user_id):
 def service_provider_login():
     data = request.json
     email = data.get('email')
-    password = data.get('password')
 
     conn = get_service_provider_db_connection()
     cursor = conn.cursor()
 
     # Check if the shopkeeper exists with the given email and password
-    cursor.execute('SELECT * FROM service_provers_table WHERE email=? AND password=?', (email, password))
+    cursor.execute('SELECT * FROM service_provers_table WHERE email=? ', (email, ))
     shopkeeper = cursor.fetchone()
 
     conn.close()
