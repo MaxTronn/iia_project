@@ -174,5 +174,24 @@ def fetch_booking_details(booking_id):
     else:
         return jsonify({'error': 'Booking details not found for the given booking ID'}), 404
 
+
+# Endpoint to fetch all bookings of a service_provider
+@app.route('/fetch_all_bookings/<int:service_provider_id>', methods=['GET'])
+def fetch_all_bookings(service_provider_id):
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    # Fetch all details related to the booking ID from the booking table
+    cursor.execute('SELECT * FROM booking WHERE service_provider_id=?'
+                   'ORDER BY b_id DESC', (service_provider_id,))
+    booking_details = cursor.fetchall()
+
+    conn.close()
+
+    if booking_details:
+        return jsonify([dict(booking) for booking in booking_details])
+    else:
+        return jsonify({'error': 'Booking details not found for the given service provider ID'}), 404
+
 if __name__ == '__main__':
     app.run(debug=True)
