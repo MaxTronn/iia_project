@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
 import sqlite3
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 
 @app.route('/items/electrical')
@@ -38,7 +40,7 @@ def get_electrical_item():
         query += key + " =?" + " AND "
 
     if query == base_query:
-        return "No search parameters provided"
+        query = "SELECT * FROM electrical_items AND "
 
     query = query[:-5] + ";"
 
@@ -114,7 +116,7 @@ def get_furniture_item():
         query += key + " =?" + " AND "
 
     if query == base_query:
-        return "No search parameters provided"
+        query = "SELECT * FROM electrical_items AND "
 
     query = query[:-5] + ";"
 
@@ -194,7 +196,7 @@ def get_general_hardware_item():
         query += key + " =?" + " AND "
 
     if query == base_query:
-        return "No search parameters provided"
+        query = "SELECT * FROM electrical_items AND "
 
     query = query[:-5] + ";"
 
