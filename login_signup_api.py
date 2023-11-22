@@ -25,8 +25,8 @@ def get_service_provider_db_connection():
 
 # json payload for user_login
 # {
-#   "email": "user@example.com",
-#   "password": "password123"
+#   "email": "aaditya@gmail.com",
+#   "password": "FeUaoyMi"
 # }
 
 
@@ -46,8 +46,10 @@ def user_login():
 
     conn.close()
 
-    # Return True if the user exists, else return False
-    return jsonify({'result': True if user else False})
+    if user:
+        return jsonify(dict(user))
+    else:
+        return jsonify({'error': 'User not found'}), 404
 
 
 
@@ -133,6 +135,28 @@ def service_provider_login():
 
     # Check if the shopkeeper exists with the given email and password
     cursor.execute('SELECT * FROM service_provers_table WHERE email=? AND password=?', (email, password))
+    shopkeeper = cursor.fetchone()
+
+    conn.close()
+
+    # Return True if the shopkeeper exists, else return False
+    return jsonify({'result': True if shopkeeper else False})
+
+
+
+# Endpoint for independent service provider login
+@app.route('/idpt_service_provider_login', methods=['POST'])
+def idpt_service_provider_login():
+    data = request.json
+    email = data.get('email')
+    password = data.get('password')
+
+    conn = get_service_provider_db_connection()
+    cursor = conn.cursor()
+
+    # Check if the shopkeeper exists with the given email and password
+    cursor.execute('SELECT * FROM service_provers_table WHERE email=? '
+                   'AND password=? AND database_name="individual"', (email, password))
     shopkeeper = cursor.fetchone()
 
     conn.close()

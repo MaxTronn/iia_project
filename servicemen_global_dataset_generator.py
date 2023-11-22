@@ -1,6 +1,7 @@
 import pandas as pd
 import random
 import numpy as np
+import string
 
 # Read the first name and last name lists from text files
 with open('data/first_name.txt', 'r') as f:
@@ -10,7 +11,7 @@ with open('data/last_name.txt', 'r') as f:
     last_names = f.read().splitlines()
 
 
-df = pd.DataFrame(columns=['id','name', 'service_id', 'charge', 'workex'])
+df = pd.DataFrame(columns=['id','name', 'service_id', 'charge', 'workex', 'email'])
 id = 1
 
 # Generate random names and add them to the DataFrame
@@ -18,13 +19,17 @@ for _ in range(500):
     first_name = random.choice(first_names)
     last_name = random.choice(last_names)
     full_name = f'{first_name} {last_name}'
+    email = f'{first_name}{last_name}' + '@gmail.com'
+    email = email.lower()
     service_id = random.randint(1,16)
     charge = random.randint(10, 24) * 50
     workex = random.randint(0,10)
-    df = df.append({'id' : id,'name': full_name, 'service_id': service_id, 'charge':  charge, 'workex': workex}, ignore_index=True)
+    df = df.append({'id' : id,'name': full_name, 'service_id': service_id,
+                    'charge':  charge, 'workex': workex, 'email': email}, ignore_index=True)
     id+=1
 
 df['phone_number'] = df.apply(lambda _: '+91' + ''.join(random.choices('0123456789', k=10)), axis=1)
+df['password'] = df.apply(lambda _: ''.join(random.choices(string.ascii_letters + string.digits, k=8)), axis=1)
 df['available'] = 1
 
 # Latitude : 28.38 --- 28.87
