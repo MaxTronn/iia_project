@@ -4,6 +4,9 @@ from flask import Flask, jsonify, request
 import sqlite3
 import os
 
+from flask_cors import CORS
+CORS(app)
+
 
 app = Flask(__name__)
 

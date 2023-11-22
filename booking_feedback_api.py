@@ -3,6 +3,9 @@ import sqlite3
 
 app = Flask(__name__)
 
+from flask_cors import CORS
+CORS(app)
+
 # SQLite database file
 DATABASE = "BookingsAndFeedback/BookingsAndFeedback.db"
 USER_DATABASE = "data/users.db"
@@ -243,4 +246,4 @@ def fetch_all_bookings(service_provider_id):
         return jsonify({'error': 'Booking details not found for the given service provider ID'})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)

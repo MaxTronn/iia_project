@@ -2,6 +2,9 @@ from flask import Flask, request, jsonify
 import sqlite3
 
 app = Flask(__name__)
+from flask_cors import CORS
+CORS(app)
+
 
 # SQLite database file
 USER_DATABASE = "data/users.db"
@@ -200,4 +203,4 @@ def get_service_provider_details(service_provider_id):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5006)

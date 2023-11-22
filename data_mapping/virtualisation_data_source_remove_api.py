@@ -6,6 +6,9 @@ import os
 
 app = Flask(__name__)
 
+from flask_cors import CORS
+CORS(app)
+
 
 def map_schema():
     synonyms = vdm.synonyms
@@ -90,4 +93,4 @@ def remove_db(db_name):
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
