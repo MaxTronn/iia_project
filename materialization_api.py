@@ -116,7 +116,7 @@ def get_furniture_item():
         query += key + " =?" + " AND "
 
     if query == base_query:
-        query = "SELECT * FROM electrical_items AND "
+        query = "SELECT * FROM furniture_items AND "
 
     query = query[:-5] + ";"
 
