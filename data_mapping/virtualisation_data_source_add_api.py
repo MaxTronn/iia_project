@@ -65,21 +65,14 @@ def map_schema():
 def upload_file():
 
     file = request.files['file']
-    name = request.form['name']
-    email = request.form['email']
-    phone = request.form['phone']
-    lat = request.form['lat']
-    lng = request.form['lng']
-    password = request.form['password']
-    store_type = request.form['store_type']
-
+    id = request.form['id']
     file.save(os.path.join(vdm.folder_path, file.filename))
 
     conn = sqlite3.connect('../Service_provider_global/service_providers.db')
-    query = "INSERT INTO Service_provers_table (store_name, email, phone, latitude, longitude, password, type, database_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
-    cursor = conn.cursor()
-    cursor.execute(query, (name, email, phone, float(lat), float(lng),
-                   password, store_type, file.filename))
+    # change db name where id = id
+    query = "UPDATE service_provers_table SET database_name = ? WHERE id = ?"
+    conn.execute(query, (file.filename, id))
+
     conn.commit()
     conn.close()
 
@@ -89,4 +82,4 @@ def upload_file():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5007)
